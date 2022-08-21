@@ -4,9 +4,10 @@ from gnode import *
 import argparse
 from bfs_toolkit import *
 from simulator import *
+from gnode_combine import *
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--input_log', type=str, default='inception.log')
+parser.add_argument('--input_log', type=str, default='test2.log')
 parser.add_argument('--iteration', type=int, default=10)
 parser.add_argument('--population', type=int, default=30)
 args = parser.parse_args()
@@ -19,6 +20,7 @@ def fix_op_schedule(op_schedule):
 
 if __name__ == '__main__':
     gnodes = load_gnodes(args.input_log)
+    gnodes = combine_seq_gnode(gnodes)
     bfs = get_bfs_level(gnodes)
     op_num = len(gnodes)
     

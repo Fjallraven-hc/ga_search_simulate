@@ -1,18 +1,27 @@
+from pickletools import read_unicodestringnl
+
+
 def get_bfs_level(gnodes):
-    tag_visited = [0 for i in range(len(gnodes))]
-    bfs_result = [-1 for i in range(len(gnodes))]
+    # tag_visited = [0 for i in range(len(gnodes))]
+    # add combine case
+    tag_visited = []
+    bfs_result = []
+    for gnode in gnodes:
+        if gnode.combine_flag or gnode.type == "Constant" or len(gnode.src) == 0:
+            tag_visited.append(1)
+            if not gnode.combine_flag:
+                bfs_result.append(0)
+            else:
+                bfs_result.append(-1)
+        else:
+            tag_visited.append(0)
+            bfs_result.append(-1)
+
     while 0 in tag_visited:
         for idx in range(len(gnodes)):
             pre_ok = True
-            
-            if gnodes[idx].type == "Constant":
-                tag_visited[idx] = 1
-                bfs_result[idx] = 0
-                continue
 
-            if len(gnodes[idx].src) == 0:
-                tag_visited[idx] = 1
-                bfs_result[idx] = 0
+            if tag_visited[idx]:
                 continue
 
             for pre_id in gnodes[idx].src:
@@ -21,30 +30,38 @@ def get_bfs_level(gnodes):
                     break
 
             if pre_ok:
-                max_pre_stage = bfs_result[gnodes[idx].src[0]]
-                for pre_id in gnodes[idx].src:
-                    if max_pre_stage < bfs_result[pre_id]:
-                        max_pre_stage = bfs_result[pre_id]
-                tag_visited[idx] = 1
-                bfs_result[idx] = max_pre_stage + 1
+                try:
+                    max_pre_stage = bfs_result[gnodes[idx].src[0]]
+                    for pre_id in gnodes[idx].src:
+                        if max_pre_stage < bfs_result[pre_id]:
+                            max_pre_stage = bfs_result[pre_id]
+                    tag_visited[idx] = 1
+                    bfs_result[idx] = max_pre_stage + 1
+                except:
+                    print("wrong idx: ", idx)
+                    read_unicodestringnl
     # print(bfs_result)
     return bfs_result
 
 
 def update_schedule(schedule, bias, gnodes):
-    ops_stage = [0 for i in range(len(gnodes))]
-    tag_visited = [0 for i in range(len(gnodes))]
+    ops_stage = []
+    tag_visited = []
+    for gnode in gnodes:
+        if gnode.combine_flag or schedule[gnode.id] == 0 or len(gnode.src) == 0:
+            tag_visited.append(1)
+            if not gnode.combine_flag:
+                ops_stage.append(0)
+            else:
+                ops_stage.append(-1)
+        else:
+            tag_visited.append(0)
+            ops_stage.append(0)
     
     while 0 in tag_visited:
         for idx in range(len(gnodes)):
             pre_ok = True
-            if schedule[idx] == 0:
-                ops_stage[idx] = 0
-                tag_visited[idx] = 1
-                continue
-            if len(gnodes[idx].src) == 0:
-                ops_stage[idx] = 0
-                tag_visited[idx] = 1
+            if tag_visited[idx]:
                 continue
             
             for pre_id in gnodes[idx].src:
@@ -64,7 +81,8 @@ def update_schedule(schedule, bias, gnodes):
                 tag_visited[idx] = 1
     stage_schedule = [[] for i in range(max(ops_stage) + 1)]
     for idx in range(len(gnodes)):
-        stage_schedule[ops_stage[idx]].append(idx)
+        if ops_stage[idx] != -1:
+            stage_schedule[ops_stage[idx]].append(idx)
     
     b = list(set(sorted(ops_stage)))
     fixed_ops_stage = [b.index(a) for a in ops_stage]

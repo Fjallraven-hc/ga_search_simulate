@@ -19,7 +19,8 @@ sn = {
     "Sum":"Sum",
     "Divide":"Divide",
     "Dot":"Dot",
-    "Result":"Result"
+    "Result":"Result",
+    "Combine":"Combine" # used for seq_op_fuse type
 }
 
 class GNode:
@@ -31,6 +32,7 @@ class GNode:
         self.identifier = identifier
         self.dst = []
         self.src = []
+        self.combine_flag = False
 
     def add_src(self, snode):
         self.src.append(snode)
@@ -144,6 +146,7 @@ def load_gnodes(file):
         else:
             # print('Not profiled OP, use default profile results')
             gnode.set_latency({'10':3, '20':3, '30':3, '40':3, '50':3, '60':3, '70':3, '80':3})
+            # gnode.set_latency({'10':142, '20':77, '30':43, '40':33, '50':44, '60':35, '70':36, '80':25})
 
     # for gnode in gnodes:
     #     if gnode.type == 'Convolution':
