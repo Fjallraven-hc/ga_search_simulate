@@ -1,0 +1,483 @@
+id:23, name:fc.weight, type:Constant, identifier:Constant;1000,1280float
+	output nodes id:283, type:Dot
+id:25, name:onnx::Conv_366, type:Constant, identifier:Constant;39,3,3,3float
+	output nodes id:57, type:Convolution
+id:27, name:onnx::Conv_369, type:Constant, identifier:Constant;78,39,3,3float
+	output nodes id:61, type:Convolution
+id:29, name:onnx::Conv_372, type:Constant, identifier:Constant;78,78,1,1float
+	output nodes id:70, type:Convolution
+id:31, name:onnx::Conv_375, type:Constant, identifier:Constant;78,78,1,1float
+	output nodes id:91, type:Convolution
+id:32, name:onnx::Conv_378, type:Constant, identifier:Constant;78,78,1,1float
+	output nodes id:85, type:Convolution
+id:33, name:onnx::Conv_381, type:Constant, identifier:Constant;78,78,1,1float
+	output nodes id:79, type:Convolution
+id:34, name:onnx::Conv_384, type:Constant, identifier:Constant;78,78,1,1float
+	output nodes id:111, type:Convolution
+id:35, name:onnx::Conv_387, type:Constant, identifier:Constant;78,78,1,1float
+	output nodes id:105, type:Convolution
+id:36, name:onnx::Conv_390, type:Constant, identifier:Constant;78,78,1,1float
+	output nodes id:125, type:Convolution
+id:37, name:onnx::Conv_393, type:Constant, identifier:Constant;156,78,1,1float
+	output nodes id:141, type:Convolution
+id:39, name:onnx::Conv_396, type:Constant, identifier:Constant;156,156,1,1float
+	output nodes id:162, type:Convolution
+id:40, name:onnx::Conv_399, type:Constant, identifier:Constant;156,156,1,1float
+	output nodes id:156, type:Convolution
+id:41, name:onnx::Conv_402, type:Constant, identifier:Constant;156,156,1,1float
+	output nodes id:150, type:Convolution
+id:42, name:onnx::Conv_405, type:Constant, identifier:Constant;156,156,1,1float
+	output nodes id:182, type:Convolution
+id:43, name:onnx::Conv_408, type:Constant, identifier:Constant;156,156,1,1float
+	output nodes id:176, type:Convolution
+id:44, name:onnx::Conv_411, type:Constant, identifier:Constant;156,156,1,1float
+	output nodes id:196, type:Convolution
+id:45, name:onnx::Conv_414, type:Constant, identifier:Constant;312,156,1,1float
+	output nodes id:212, type:Convolution
+id:47, name:onnx::Conv_417, type:Constant, identifier:Constant;312,312,1,1float
+	output nodes id:233, type:Convolution
+id:48, name:onnx::Conv_420, type:Constant, identifier:Constant;312,312,1,1float
+	output nodes id:227, type:Convolution
+id:49, name:onnx::Conv_423, type:Constant, identifier:Constant;312,312,1,1float
+	output nodes id:221, type:Convolution
+id:50, name:onnx::Conv_426, type:Constant, identifier:Constant;312,312,1,1float
+	output nodes id:253, type:Convolution
+id:51, name:onnx::Conv_429, type:Constant, identifier:Constant;312,312,1,1float
+	output nodes id:247, type:Convolution
+id:52, name:onnx::Conv_432, type:Constant, identifier:Constant;312,312,1,1float
+	output nodes id:267, type:Convolution
+id:53, name:onnx::Conv_435, type:Constant, identifier:Constant;1280,312,1,1float
+	output nodes id:278, type:Convolution
+id:55, name:onnx::Reshape_439, type:Constant, identifier:Constant;2int64_t
+id:56, name:input, type:Parameter, identifier:Parameter;1,3,224,224float
+	output nodes id:57, type:Convolution
+id:57, name:Convolution_57, type:Convolution, identifier:Convolution1,3,224,224;39,3,3,3;1,39,112,112floatfloatfloatStrides{2, 2}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:59, type:Add
+id:59, name:Add_59, type:Add, identifier:Add1,39,112,112;1,39,112,112;1,39,112,112floatfloatfloat
+	output nodes id:60, type:Relu
+id:60, name:input.4, type:Relu, identifier:Relu1,39,112,112;1,39,112,112floatfloat
+	output nodes id:61, type:Convolution
+id:61, name:Convolution_61, type:Convolution, identifier:Convolution1,39,112,112;78,39,3,3;1,78,56,56floatfloatfloatStrides{2, 2}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:63, type:Add
+id:63, name:Add_63, type:Add, identifier:Add1,78,56,56;1,78,56,56;1,78,56,56floatfloatfloat
+	output nodes id:64, type:Reshape
+id:64, name:onnx::Concat_182, type:Reshape, identifier:Reshape1,78,56,56;1,78,56,56,1floatfloat
+	output nodes id:65, type:Concat
+id:65, name:onnx::Squeeze_183, type:Concat, identifier:Concat1,78,56,56,1;1,78,56,56,1floatfloat
+	output nodes id:66, type:Reshape
+id:66, name:y.3, type:Reshape, identifier:Reshape1,78,56,56,1;1,78,56,56floatfloat
+	output nodes id:67, type:Relu
+id:67, name:input.12, type:Relu, identifier:Relu1,78,56,56;1,78,56,56floatfloat
+	output nodes id:69, type:DepthwiseConv2dNative
+id:69, name:Conv_29, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,78,56,56;3,3,78,1;1,78,28,28floatfloatfloatStrides{2, 2}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:70, type:Convolution
+id:70, name:Convolution_70, type:Convolution, identifier:Convolution1,78,28,28;78,78,1,1;1,78,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:72, type:Add
+id:72, name:Add_72, type:Add, identifier:Add1,78,28,28;1,78,28,28;1,78,28,28floatfloatfloat
+	output nodes id:73, type:Reshape
+id:73, name:onnx::Concat_203, type:Reshape, identifier:Reshape1,78,28,28;1,78,28,28,1floatfloat
+	output nodes id:74, type:Concat
+id:74, name:onnx::Squeeze_204, type:Concat, identifier:Concat1,78,28,28,1;1,78,28,28,1floatfloat
+	output nodes id:75, type:Reshape
+id:75, name:y.15, type:Reshape, identifier:Reshape1,78,28,28,1;1,78,28,28floatfloat
+	output nodes id:76, type:Relu
+id:76, name:input.48, type:Relu, identifier:Relu1,78,28,28;1,78,28,28floatfloat
+	output nodes id:78, type:DepthwiseConv2dNative
+	output nodes id:84, type:DepthwiseConv2dNative
+	output nodes id:90, type:DepthwiseConv2dNative
+	output nodes id:110, type:DepthwiseConv2dNative
+id:78, name:Conv_47, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,78,28,28;3,3,78,1;1,78,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:79, type:Convolution
+id:79, name:Convolution_79, type:Convolution, identifier:Convolution1,78,28,28;78,78,1,1;1,78,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:81, type:Add
+id:81, name:Add_81, type:Add, identifier:Add1,78,28,28;1,78,28,28;1,78,28,28floatfloatfloat
+	output nodes id:82, type:Reshape
+id:82, name:onnx::Concat_219, type:Reshape, identifier:Reshape1,78,28,28;1,78,28,28,1floatfloat
+	output nodes id:95, type:Concat
+id:84, name:Conv_41, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,78,28,28;3,3,78,1;1,78,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:85, type:Convolution
+id:85, name:Convolution_85, type:Convolution, identifier:Convolution1,78,28,28;78,78,1,1;1,78,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:87, type:Add
+id:87, name:Add_87, type:Add, identifier:Add1,78,28,28;1,78,28,28;1,78,28,28floatfloatfloat
+	output nodes id:88, type:Reshape
+id:88, name:onnx::Concat_218, type:Reshape, identifier:Reshape1,78,28,28;1,78,28,28,1floatfloat
+	output nodes id:95, type:Concat
+id:90, name:Conv_35, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,78,28,28;3,3,78,1;1,78,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:91, type:Convolution
+id:91, name:Convolution_91, type:Convolution, identifier:Convolution1,78,28,28;78,78,1,1;1,78,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:93, type:Add
+id:93, name:Add_93, type:Add, identifier:Add1,78,28,28;1,78,28,28;1,78,28,28floatfloatfloat
+	output nodes id:94, type:Reshape
+id:94, name:onnx::Concat_217, type:Reshape, identifier:Reshape1,78,28,28;1,78,28,28,1floatfloat
+	output nodes id:95, type:Concat
+id:95, name:onnx::MatMul_220, type:Concat, identifier:Concat1,78,28,28,1;1,78,28,28,1;1,78,28,28,1;1,78,28,28,3floatfloatfloatfloat
+	output nodes id:96, type:Reshape
+id:96, name:Reshape_96, type:Reshape, identifier:Reshape1,78,28,28,3;1,78,28,28,3floatfloat
+	output nodes id:98, type:Broadcast
+id:98, name:Broadcast_98, type:Broadcast, identifier:Broadcast1,78,28,28,3;1,78,28,28,3floatfloat
+	output nodes id:100, type:BatchMatMul
+id:100, name:y.23, type:BatchMatMul, identifier:BatchMatMul1,78,28,28,3;1,78,28,3,1;1,78,28,28,1floatfloatfloat
+	output nodes id:101, type:Reshape
+id:101, name:Reshape_101, type:Reshape, identifier:Reshape1,78,28,28,1;1,78,28,28floatfloat
+	output nodes id:102, type:Relu
+id:102, name:input.72, type:Relu, identifier:Relu1,78,28,28;1,78,28,28floatfloat
+	output nodes id:104, type:DepthwiseConv2dNative
+id:104, name:Conv_62, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,78,28,28;3,3,78,1;1,78,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:105, type:Convolution
+id:105, name:Convolution_105, type:Convolution, identifier:Convolution1,78,28,28;78,78,1,1;1,78,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:107, type:Add
+id:107, name:Add_107, type:Add, identifier:Add1,78,28,28;1,78,28,28;1,78,28,28floatfloatfloat
+	output nodes id:108, type:Reshape
+id:108, name:onnx::Concat_228, type:Reshape, identifier:Reshape1,78,28,28;1,78,28,28,1floatfloat
+	output nodes id:115, type:Concat
+id:110, name:Conv_53, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,78,28,28;3,3,78,1;1,78,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:111, type:Convolution
+id:111, name:Convolution_111, type:Convolution, identifier:Convolution1,78,28,28;78,78,1,1;1,78,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:113, type:Add
+id:113, name:Add_113, type:Add, identifier:Add1,78,28,28;1,78,28,28;1,78,28,28floatfloatfloat
+	output nodes id:114, type:Reshape
+id:114, name:onnx::Concat_227, type:Reshape, identifier:Reshape1,78,28,28;1,78,28,28,1floatfloat
+	output nodes id:115, type:Concat
+id:115, name:onnx::MatMul_229, type:Concat, identifier:Concat1,78,28,28,1;1,78,28,28,1;1,78,28,28,2floatfloatfloat
+	output nodes id:116, type:Reshape
+id:116, name:Reshape_116, type:Reshape, identifier:Reshape1,78,28,28,2;1,78,28,28,2floatfloat
+	output nodes id:118, type:Broadcast
+id:118, name:Broadcast_118, type:Broadcast, identifier:Broadcast1,78,28,28,2;1,78,28,28,2floatfloat
+	output nodes id:120, type:BatchMatMul
+id:120, name:y.27, type:BatchMatMul, identifier:BatchMatMul1,78,28,28,2;1,78,28,2,1;1,78,28,28,1floatfloatfloat
+	output nodes id:121, type:Reshape
+id:121, name:Reshape_121, type:Reshape, identifier:Reshape1,78,28,28,1;1,78,28,28floatfloat
+	output nodes id:122, type:Relu
+id:122, name:input.84, type:Relu, identifier:Relu1,78,28,28;1,78,28,28floatfloat
+	output nodes id:124, type:DepthwiseConv2dNative
+id:124, name:Conv_70, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,78,28,28;3,3,78,1;1,78,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:125, type:Convolution
+id:125, name:Convolution_125, type:Convolution, identifier:Convolution1,78,28,28;78,78,1,1;1,78,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:127, type:Add
+id:127, name:Add_127, type:Add, identifier:Add1,78,28,28;1,78,28,28;1,78,28,28floatfloatfloat
+	output nodes id:128, type:Reshape
+id:128, name:onnx::Concat_236, type:Reshape, identifier:Reshape1,78,28,28;1,1,78,28,28floatfloat
+	output nodes id:129, type:Concat
+id:129, name:onnx::ReduceMean_237, type:Concat, identifier:Concat1,1,78,28,28;1,1,78,28,28floatfloat
+	output nodes id:130, type:Sum
+id:130, name:Sum_130, type:Sum, identifier:Sum1,1,78,28,28;1,78,28,28floatfloat
+	output nodes id:134, type:Divide
+id:134, name:Divide_134, type:Divide, identifier:Divide1,78,28,28;1,78,28,28;1,78,28,28floatfloatfloat
+	output nodes id:135, type:Reshape
+id:135, name:onnx::Concat_239, type:Reshape, identifier:Reshape1,78,28,28;1,78,28,28,1floatfloat
+	output nodes id:136, type:Concat
+id:136, name:onnx::Squeeze_240, type:Concat, identifier:Concat1,78,28,28,1;1,78,28,28,1floatfloat
+	output nodes id:137, type:Reshape
+id:137, name:y.31, type:Reshape, identifier:Reshape1,78,28,28,1;1,78,28,28floatfloat
+	output nodes id:138, type:Relu
+id:138, name:input.96, type:Relu, identifier:Relu1,78,28,28;1,78,28,28floatfloat
+	output nodes id:140, type:DepthwiseConv2dNative
+id:140, name:Conv_79, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,78,28,28;3,3,78,1;1,78,14,14floatfloatfloatStrides{2, 2}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:141, type:Convolution
+id:141, name:Convolution_141, type:Convolution, identifier:Convolution1,78,14,14;156,78,1,1;1,156,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:143, type:Add
+id:143, name:Add_143, type:Add, identifier:Add1,156,14,14;1,156,14,14;1,156,14,14floatfloatfloat
+	output nodes id:144, type:Reshape
+id:144, name:onnx::Concat_260, type:Reshape, identifier:Reshape1,156,14,14;1,156,14,14,1floatfloat
+	output nodes id:145, type:Concat
+id:145, name:onnx::Squeeze_261, type:Concat, identifier:Concat1,156,14,14,1;1,156,14,14,1floatfloat
+	output nodes id:146, type:Reshape
+id:146, name:y.43, type:Reshape, identifier:Reshape1,156,14,14,1;1,156,14,14floatfloat
+	output nodes id:147, type:Relu
+id:147, name:input.132, type:Relu, identifier:Relu1,156,14,14;1,156,14,14floatfloat
+	output nodes id:149, type:DepthwiseConv2dNative
+	output nodes id:155, type:DepthwiseConv2dNative
+	output nodes id:161, type:DepthwiseConv2dNative
+	output nodes id:181, type:DepthwiseConv2dNative
+id:149, name:Conv_97, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,156,14,14;3,3,156,1;1,156,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:150, type:Convolution
+id:150, name:Convolution_150, type:Convolution, identifier:Convolution1,156,14,14;156,156,1,1;1,156,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:152, type:Add
+id:152, name:Add_152, type:Add, identifier:Add1,156,14,14;1,156,14,14;1,156,14,14floatfloatfloat
+	output nodes id:153, type:Reshape
+id:153, name:onnx::Concat_276, type:Reshape, identifier:Reshape1,156,14,14;1,156,14,14,1floatfloat
+	output nodes id:166, type:Concat
+id:155, name:Conv_91, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,156,14,14;3,3,156,1;1,156,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:156, type:Convolution
+id:156, name:Convolution_156, type:Convolution, identifier:Convolution1,156,14,14;156,156,1,1;1,156,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:158, type:Add
+id:158, name:Add_158, type:Add, identifier:Add1,156,14,14;1,156,14,14;1,156,14,14floatfloatfloat
+	output nodes id:159, type:Reshape
+id:159, name:onnx::Concat_275, type:Reshape, identifier:Reshape1,156,14,14;1,156,14,14,1floatfloat
+	output nodes id:166, type:Concat
+id:161, name:Conv_85, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,156,14,14;3,3,156,1;1,156,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:162, type:Convolution
+id:162, name:Convolution_162, type:Convolution, identifier:Convolution1,156,14,14;156,156,1,1;1,156,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:164, type:Add
+id:164, name:Add_164, type:Add, identifier:Add1,156,14,14;1,156,14,14;1,156,14,14floatfloatfloat
+	output nodes id:165, type:Reshape
+id:165, name:onnx::Concat_274, type:Reshape, identifier:Reshape1,156,14,14;1,156,14,14,1floatfloat
+	output nodes id:166, type:Concat
+id:166, name:onnx::MatMul_277, type:Concat, identifier:Concat1,156,14,14,1;1,156,14,14,1;1,156,14,14,1;1,156,14,14,3floatfloatfloatfloat
+	output nodes id:167, type:Reshape
+id:167, name:Reshape_167, type:Reshape, identifier:Reshape1,156,14,14,3;1,156,14,14,3floatfloat
+	output nodes id:169, type:Broadcast
+id:169, name:Broadcast_169, type:Broadcast, identifier:Broadcast1,156,14,14,3;1,156,14,14,3floatfloat
+	output nodes id:171, type:BatchMatMul
+id:171, name:y.51, type:BatchMatMul, identifier:BatchMatMul1,156,14,14,3;1,156,14,3,1;1,156,14,14,1floatfloatfloat
+	output nodes id:172, type:Reshape
+id:172, name:Reshape_172, type:Reshape, identifier:Reshape1,156,14,14,1;1,156,14,14floatfloat
+	output nodes id:173, type:Relu
+id:173, name:input.156, type:Relu, identifier:Relu1,156,14,14;1,156,14,14floatfloat
+	output nodes id:175, type:DepthwiseConv2dNative
+id:175, name:Conv_112, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,156,14,14;3,3,156,1;1,156,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:176, type:Convolution
+id:176, name:Convolution_176, type:Convolution, identifier:Convolution1,156,14,14;156,156,1,1;1,156,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:178, type:Add
+id:178, name:Add_178, type:Add, identifier:Add1,156,14,14;1,156,14,14;1,156,14,14floatfloatfloat
+	output nodes id:179, type:Reshape
+id:179, name:onnx::Concat_285, type:Reshape, identifier:Reshape1,156,14,14;1,156,14,14,1floatfloat
+	output nodes id:186, type:Concat
+id:181, name:Conv_103, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,156,14,14;3,3,156,1;1,156,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:182, type:Convolution
+id:182, name:Convolution_182, type:Convolution, identifier:Convolution1,156,14,14;156,156,1,1;1,156,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:184, type:Add
+id:184, name:Add_184, type:Add, identifier:Add1,156,14,14;1,156,14,14;1,156,14,14floatfloatfloat
+	output nodes id:185, type:Reshape
+id:185, name:onnx::Concat_284, type:Reshape, identifier:Reshape1,156,14,14;1,156,14,14,1floatfloat
+	output nodes id:186, type:Concat
+id:186, name:onnx::MatMul_286, type:Concat, identifier:Concat1,156,14,14,1;1,156,14,14,1;1,156,14,14,2floatfloatfloat
+	output nodes id:187, type:Reshape
+id:187, name:Reshape_187, type:Reshape, identifier:Reshape1,156,14,14,2;1,156,14,14,2floatfloat
+	output nodes id:189, type:Broadcast
+id:189, name:Broadcast_189, type:Broadcast, identifier:Broadcast1,156,14,14,2;1,156,14,14,2floatfloat
+	output nodes id:191, type:BatchMatMul
+id:191, name:y.55, type:BatchMatMul, identifier:BatchMatMul1,156,14,14,2;1,156,14,2,1;1,156,14,14,1floatfloatfloat
+	output nodes id:192, type:Reshape
+id:192, name:Reshape_192, type:Reshape, identifier:Reshape1,156,14,14,1;1,156,14,14floatfloat
+	output nodes id:193, type:Relu
+id:193, name:input.168, type:Relu, identifier:Relu1,156,14,14;1,156,14,14floatfloat
+	output nodes id:195, type:DepthwiseConv2dNative
+id:195, name:Conv_120, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,156,14,14;3,3,156,1;1,156,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:196, type:Convolution
+id:196, name:Convolution_196, type:Convolution, identifier:Convolution1,156,14,14;156,156,1,1;1,156,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:198, type:Add
+id:198, name:Add_198, type:Add, identifier:Add1,156,14,14;1,156,14,14;1,156,14,14floatfloatfloat
+	output nodes id:199, type:Reshape
+id:199, name:onnx::Concat_293, type:Reshape, identifier:Reshape1,156,14,14;1,1,156,14,14floatfloat
+	output nodes id:200, type:Concat
+id:200, name:onnx::ReduceMean_294, type:Concat, identifier:Concat1,1,156,14,14;1,1,156,14,14floatfloat
+	output nodes id:201, type:Sum
+id:201, name:Sum_201, type:Sum, identifier:Sum1,1,156,14,14;1,156,14,14floatfloat
+	output nodes id:205, type:Divide
+id:205, name:Divide_205, type:Divide, identifier:Divide1,156,14,14;1,156,14,14;1,156,14,14floatfloatfloat
+	output nodes id:206, type:Reshape
+id:206, name:onnx::Concat_296, type:Reshape, identifier:Reshape1,156,14,14;1,156,14,14,1floatfloat
+	output nodes id:207, type:Concat
+id:207, name:onnx::Squeeze_297, type:Concat, identifier:Concat1,156,14,14,1;1,156,14,14,1floatfloat
+	output nodes id:208, type:Reshape
+id:208, name:y.59, type:Reshape, identifier:Reshape1,156,14,14,1;1,156,14,14floatfloat
+	output nodes id:209, type:Relu
+id:209, name:input.180, type:Relu, identifier:Relu1,156,14,14;1,156,14,14floatfloat
+	output nodes id:211, type:DepthwiseConv2dNative
+id:211, name:Conv_129, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,156,14,14;3,3,156,1;1,156,7,7floatfloatfloatStrides{2, 2}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:212, type:Convolution
+id:212, name:Convolution_212, type:Convolution, identifier:Convolution1,156,7,7;312,156,1,1;1,312,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:214, type:Add
+id:214, name:Add_214, type:Add, identifier:Add1,312,7,7;1,312,7,7;1,312,7,7floatfloatfloat
+	output nodes id:215, type:Reshape
+id:215, name:onnx::Concat_317, type:Reshape, identifier:Reshape1,312,7,7;1,312,7,7,1floatfloat
+	output nodes id:216, type:Concat
+id:216, name:onnx::Squeeze_318, type:Concat, identifier:Concat1,312,7,7,1;1,312,7,7,1floatfloat
+	output nodes id:217, type:Reshape
+id:217, name:y.71, type:Reshape, identifier:Reshape1,312,7,7,1;1,312,7,7floatfloat
+	output nodes id:218, type:Relu
+id:218, name:input.216, type:Relu, identifier:Relu1,312,7,7;1,312,7,7floatfloat
+	output nodes id:220, type:DepthwiseConv2dNative
+	output nodes id:226, type:DepthwiseConv2dNative
+	output nodes id:232, type:DepthwiseConv2dNative
+	output nodes id:252, type:DepthwiseConv2dNative
+id:220, name:Conv_147, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,312,7,7;3,3,312,1;1,312,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:221, type:Convolution
+id:221, name:Convolution_221, type:Convolution, identifier:Convolution1,312,7,7;312,312,1,1;1,312,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:223, type:Add
+id:223, name:Add_223, type:Add, identifier:Add1,312,7,7;1,312,7,7;1,312,7,7floatfloatfloat
+	output nodes id:224, type:Reshape
+id:224, name:onnx::Concat_333, type:Reshape, identifier:Reshape1,312,7,7;1,312,7,7,1floatfloat
+	output nodes id:237, type:Concat
+id:226, name:Conv_141, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,312,7,7;3,3,312,1;1,312,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:227, type:Convolution
+id:227, name:Convolution_227, type:Convolution, identifier:Convolution1,312,7,7;312,312,1,1;1,312,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:229, type:Add
+id:229, name:Add_229, type:Add, identifier:Add1,312,7,7;1,312,7,7;1,312,7,7floatfloatfloat
+	output nodes id:230, type:Reshape
+id:230, name:onnx::Concat_332, type:Reshape, identifier:Reshape1,312,7,7;1,312,7,7,1floatfloat
+	output nodes id:237, type:Concat
+id:232, name:Conv_135, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,312,7,7;3,3,312,1;1,312,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:233, type:Convolution
+id:233, name:Convolution_233, type:Convolution, identifier:Convolution1,312,7,7;312,312,1,1;1,312,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:235, type:Add
+id:235, name:Add_235, type:Add, identifier:Add1,312,7,7;1,312,7,7;1,312,7,7floatfloatfloat
+	output nodes id:236, type:Reshape
+id:236, name:onnx::Concat_331, type:Reshape, identifier:Reshape1,312,7,7;1,312,7,7,1floatfloat
+	output nodes id:237, type:Concat
+id:237, name:onnx::MatMul_334, type:Concat, identifier:Concat1,312,7,7,1;1,312,7,7,1;1,312,7,7,1;1,312,7,7,3floatfloatfloatfloat
+	output nodes id:238, type:Reshape
+id:238, name:Reshape_238, type:Reshape, identifier:Reshape1,312,7,7,3;1,312,7,7,3floatfloat
+	output nodes id:240, type:Broadcast
+id:240, name:Broadcast_240, type:Broadcast, identifier:Broadcast1,312,7,7,3;1,312,7,7,3floatfloat
+	output nodes id:242, type:BatchMatMul
+id:242, name:y.79, type:BatchMatMul, identifier:BatchMatMul1,312,7,7,3;1,312,7,3,1;1,312,7,7,1floatfloatfloat
+	output nodes id:243, type:Reshape
+id:243, name:Reshape_243, type:Reshape, identifier:Reshape1,312,7,7,1;1,312,7,7floatfloat
+	output nodes id:244, type:Relu
+id:244, name:input.240, type:Relu, identifier:Relu1,312,7,7;1,312,7,7floatfloat
+	output nodes id:246, type:DepthwiseConv2dNative
+id:246, name:Conv_162, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,312,7,7;3,3,312,1;1,312,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:247, type:Convolution
+id:247, name:Convolution_247, type:Convolution, identifier:Convolution1,312,7,7;312,312,1,1;1,312,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:249, type:Add
+id:249, name:Add_249, type:Add, identifier:Add1,312,7,7;1,312,7,7;1,312,7,7floatfloatfloat
+	output nodes id:250, type:Reshape
+id:250, name:onnx::Concat_342, type:Reshape, identifier:Reshape1,312,7,7;1,312,7,7,1floatfloat
+	output nodes id:257, type:Concat
+id:252, name:Conv_153, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,312,7,7;3,3,312,1;1,312,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:253, type:Convolution
+id:253, name:Convolution_253, type:Convolution, identifier:Convolution1,312,7,7;312,312,1,1;1,312,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:255, type:Add
+id:255, name:Add_255, type:Add, identifier:Add1,312,7,7;1,312,7,7;1,312,7,7floatfloatfloat
+	output nodes id:256, type:Reshape
+id:256, name:onnx::Concat_341, type:Reshape, identifier:Reshape1,312,7,7;1,312,7,7,1floatfloat
+	output nodes id:257, type:Concat
+id:257, name:onnx::MatMul_343, type:Concat, identifier:Concat1,312,7,7,1;1,312,7,7,1;1,312,7,7,2floatfloatfloat
+	output nodes id:258, type:Reshape
+id:258, name:Reshape_258, type:Reshape, identifier:Reshape1,312,7,7,2;1,312,7,7,2floatfloat
+	output nodes id:260, type:Broadcast
+id:260, name:Broadcast_260, type:Broadcast, identifier:Broadcast1,312,7,7,2;1,312,7,7,2floatfloat
+	output nodes id:262, type:BatchMatMul
+id:262, name:y.83, type:BatchMatMul, identifier:BatchMatMul1,312,7,7,2;1,312,7,2,1;1,312,7,7,1floatfloatfloat
+	output nodes id:263, type:Reshape
+id:263, name:Reshape_263, type:Reshape, identifier:Reshape1,312,7,7,1;1,312,7,7floatfloat
+	output nodes id:264, type:Relu
+id:264, name:input.252, type:Relu, identifier:Relu1,312,7,7;1,312,7,7floatfloat
+	output nodes id:266, type:DepthwiseConv2dNative
+id:266, name:Conv_170, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,312,7,7;3,3,312,1;1,312,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:267, type:Convolution
+id:267, name:Convolution_267, type:Convolution, identifier:Convolution1,312,7,7;312,312,1,1;1,312,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:269, type:Add
+id:269, name:Add_269, type:Add, identifier:Add1,312,7,7;1,312,7,7;1,312,7,7floatfloatfloat
+	output nodes id:270, type:Reshape
+id:270, name:onnx::Concat_350, type:Reshape, identifier:Reshape1,312,7,7;1,1,312,7,7floatfloat
+	output nodes id:271, type:Concat
+id:271, name:onnx::ReduceMean_351, type:Concat, identifier:Concat1,1,312,7,7;1,1,312,7,7floatfloat
+	output nodes id:272, type:Sum
+id:272, name:Sum_272, type:Sum, identifier:Sum1,1,312,7,7;1,312,7,7floatfloat
+	output nodes id:276, type:Divide
+id:276, name:Divide_276, type:Divide, identifier:Divide1,312,7,7;1,312,7,7;1,312,7,7floatfloatfloat
+	output nodes id:277, type:Relu
+id:277, name:input.264, type:Relu, identifier:Relu1,312,7,7;1,312,7,7floatfloat
+	output nodes id:278, type:Convolution
+id:278, name:Convolution_278, type:Convolution, identifier:Convolution1,312,7,7;1280,312,1,1;1,1280,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:280, type:Add
+id:280, name:Add_280, type:Add, identifier:Add1,1280,7,7;1,1280,7,7;1,1280,7,7floatfloatfloat
+	output nodes id:281, type:AvgPool
+id:281, name:onnx::Reshape_356, type:AvgPool, identifier:AvgPool1,1280,7,7;1,1280,1,1floatfloatShape{7, 7}Strides{1, 1}Shape{0, 0}Shape{0, 0}
+	output nodes id:282, type:Reshape
+id:282, name:onnx::Gemm_362, type:Reshape, identifier:Reshape1,1280,1,1;1,1280floatfloat
+	output nodes id:283, type:Dot
+id:283, name:Dot_283, type:Dot, identifier:Dot1,1280;1000,1280;1,1000floatfloatfloat
+	output nodes id:285, type:Add
+id:285, name:Add_285, type:Add, identifier:Add1,1000;1,1000;1,1000floatfloatfloat
+	output nodes id:286, type:Softmax
+id:286, name:output, type:Softmax, identifier:Softmax1,1000;1,1000floatfloat
+	output nodes id:287, type:Log
+id:287, name:Log_287, type:Log, identifier:Log1,1000;1,1000floatfloat
+	output nodes id:288, type:Result
+id:288, name:Result_288, type:Result, identifier:Result1,1000;1,1000floatfloat
+id:289, name:Constant_289, type:Constant, identifier:Constant;3,3,78,1float
+	output nodes id:69, type:DepthwiseConv2dNative
+id:290, name:Constant_290, type:Constant, identifier:Constant;1,78,56,56float
+	output nodes id:63, type:Add
+id:291, name:Constant_291, type:Constant, identifier:Constant;3,3,312,1float
+	output nodes id:220, type:DepthwiseConv2dNative
+id:292, name:Constant_292, type:Constant, identifier:Constant;3,3,312,1float
+	output nodes id:226, type:DepthwiseConv2dNative
+id:293, name:Constant_293, type:Constant, identifier:Constant;3,3,312,1float
+	output nodes id:232, type:DepthwiseConv2dNative
+id:295, name:Constant_295, type:Constant, identifier:Constant;3,3,312,1float
+	output nodes id:246, type:DepthwiseConv2dNative
+id:296, name:Constant_296, type:Constant, identifier:Constant;3,3,312,1float
+	output nodes id:252, type:DepthwiseConv2dNative
+id:298, name:Constant_298, type:Constant, identifier:Constant;3,3,312,1float
+	output nodes id:266, type:DepthwiseConv2dNative
+id:299, name:Constant_299, type:Constant, identifier:Constant;1,312,7,7float
+	output nodes id:229, type:Add
+	output nodes id:255, type:Add
+	output nodes id:214, type:Add
+	output nodes id:249, type:Add
+	output nodes id:269, type:Add
+	output nodes id:223, type:Add
+	output nodes id:235, type:Add
+id:301, name:Constant_301, type:Constant, identifier:Constant;1,1280,7,7float
+	output nodes id:280, type:Add
+id:302, name:Constant_302, type:Constant, identifier:Constant;1,1000float
+	output nodes id:285, type:Add
+id:303, name:Constant_303, type:Constant, identifier:Constant;1,39,112,112float
+	output nodes id:59, type:Add
+id:304, name:Constant_304, type:Constant, identifier:Constant;3,3,78,1float
+	output nodes id:78, type:DepthwiseConv2dNative
+id:305, name:Constant_305, type:Constant, identifier:Constant;3,3,78,1float
+	output nodes id:84, type:DepthwiseConv2dNative
+id:306, name:Constant_306, type:Constant, identifier:Constant;3,3,78,1float
+	output nodes id:90, type:DepthwiseConv2dNative
+id:307, name:Constant_307, type:Constant, identifier:Constant;3,3,78,1float
+	output nodes id:104, type:DepthwiseConv2dNative
+id:308, name:Constant_308, type:Constant, identifier:Constant;3,3,78,1float
+	output nodes id:110, type:DepthwiseConv2dNative
+id:309, name:Constant_309, type:Constant, identifier:Constant;3,3,78,1float
+	output nodes id:124, type:DepthwiseConv2dNative
+id:310, name:Constant_310, type:Constant, identifier:Constant;1,78,28,28float
+	output nodes id:127, type:Add
+	output nodes id:107, type:Add
+	output nodes id:81, type:Add
+	output nodes id:113, type:Add
+	output nodes id:93, type:Add
+	output nodes id:72, type:Add
+	output nodes id:87, type:Add
+id:312, name:Constant_312, type:Constant, identifier:Constant;3,3,78,1float
+	output nodes id:140, type:DepthwiseConv2dNative
+id:313, name:Constant_313, type:Constant, identifier:Constant;3,3,156,1float
+	output nodes id:149, type:DepthwiseConv2dNative
+id:314, name:Constant_314, type:Constant, identifier:Constant;3,3,156,1float
+	output nodes id:155, type:DepthwiseConv2dNative
+id:315, name:Constant_315, type:Constant, identifier:Constant;3,3,156,1float
+	output nodes id:161, type:DepthwiseConv2dNative
+id:316, name:Constant_316, type:Constant, identifier:Constant;3,3,156,1float
+	output nodes id:175, type:DepthwiseConv2dNative
+id:317, name:Constant_317, type:Constant, identifier:Constant;3,3,156,1float
+	output nodes id:181, type:DepthwiseConv2dNative
+id:318, name:Constant_318, type:Constant, identifier:Constant;3,3,156,1float
+	output nodes id:195, type:DepthwiseConv2dNative
+id:319, name:Constant_319, type:Constant, identifier:Constant;1,156,14,14float
+	output nodes id:198, type:Add
+	output nodes id:178, type:Add
+	output nodes id:152, type:Add
+	output nodes id:184, type:Add
+	output nodes id:164, type:Add
+	output nodes id:158, type:Add
+	output nodes id:143, type:Add
+id:321, name:Constant_321, type:Constant, identifier:Constant;3,3,156,1float
+	output nodes id:211, type:DepthwiseConv2dNative
+id:322, name:Constant_322, type:Constant, identifier:Constant;1,312,7,3,1float
+	output nodes id:242, type:BatchMatMul
+id:323, name:Constant_323, type:Constant, identifier:Constant;1,312,7,2,1float
+	output nodes id:262, type:BatchMatMul
+id:324, name:Constant_324, type:Constant, identifier:Constant;1,312,7,7float
+	output nodes id:276, type:Divide
+id:325, name:Constant_325, type:Constant, identifier:Constant;1,78,28,3,1float
+	output nodes id:100, type:BatchMatMul
+id:326, name:Constant_326, type:Constant, identifier:Constant;1,78,28,2,1float
+	output nodes id:120, type:BatchMatMul
+id:327, name:Constant_327, type:Constant, identifier:Constant;1,78,28,28float
+	output nodes id:134, type:Divide
+id:328, name:Constant_328, type:Constant, identifier:Constant;1,156,14,3,1float
+	output nodes id:171, type:BatchMatMul
+id:329, name:Constant_329, type:Constant, identifier:Constant;1,156,14,2,1float
+	output nodes id:191, type:BatchMatMul
+id:330, name:Constant_330, type:Constant, identifier:Constant;1,156,14,14float
+	output nodes id:205, type:Divide

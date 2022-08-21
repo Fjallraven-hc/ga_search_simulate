@@ -70,6 +70,11 @@ class Simulator:
 
     def print_schedule(self):
         for layer_idx in range(1, len(self.layer_schedule)):
+            kernel_names = [self.gnodes[idx].type for idx in self.layer_schedule[layer_idx]]
+            gids = [self.gnodes[idx].gid for idx in self.layer_schedule[layer_idx]]
+            info = [kernel_names[i] + '(' + str(gids[i]) + ')' for i in range(len(self.layer_schedule[layer_idx]))]
+            # print(' '.join(info))
+
             kernel_latencys = [self.gnodes[idx].estimate_latency(self.op_info[idx]["sm_used"]) \
                                                             for idx in self.layer_schedule[layer_idx]]
             sm_usage = [self.op_info[idx]["sm_used"] for idx in self.layer_schedule[layer_idx]]

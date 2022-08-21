@@ -6,7 +6,7 @@ from bfs_toolkit import *
 from simulator import *
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--input_log', type=str, default='inception.log')
+parser.add_argument('--input_log', type=str, default='./model_logs/inception.log')
 parser.add_argument('--iteration', type=int, default=10)
 parser.add_argument('--population', type=int, default=30)
 args = parser.parse_args()
@@ -19,6 +19,10 @@ def fix_op_schedule(op_schedule):
 
 if __name__ == '__main__':
     gnodes = load_gnodes(args.input_log)
+    # for gnode in gnodes:
+    #     if gnode.type == 'Convolution':
+    #         gnode.print_info()
+
     bfs = get_bfs_level(gnodes)
     op_num = len(gnodes)
     
@@ -39,9 +43,9 @@ if __name__ == '__main__':
 
     algorithm = ea.soea_SEGA_templet(problem,
                                         ea.Population(Encoding='RI', NIND=200),
-                                        MAXGEN=500,  # num of generations
+                                        MAXGEN=50,  # num of generations
                                         logTras=1,  # save log every logTras generations
-                                        trappedValue=1e-6,
+                                        trappedValue=1,
                                         maxTrappedCount=10)
                                         
     res = ea.optimize(algorithm, dirName='./ga_results', seed=1, verbose=True, drawing=1, outputMsg=True, drawLog=True)

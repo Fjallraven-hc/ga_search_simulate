@@ -1,0 +1,2241 @@
+id:0, name:cells.0.preprocess0.conv_1.weight, type:Constant, identifier:Constant;24,48,1,1float
+	output nodes id:285, type:Convolution
+id:1, name:cells.0.preprocess0.conv_2.weight, type:Constant, identifier:Constant;24,48,1,1float
+	output nodes id:296, type:Convolution
+id:2, name:cells.0.preprocess0.bn.weight, type:Constant, identifier:Constant;48float
+	output nodes id:298, type:BatchNormInference
+	output nodes id:298, type:BatchNormInference
+id:3, name:cells.0.preprocess0.bn.bias, type:Constant, identifier:Constant;48float
+	output nodes id:298, type:BatchNormInference
+	output nodes id:298, type:BatchNormInference
+id:42, name:cells.4._ops.8.1.weight, type:Constant, identifier:Constant;96,96,1,7float
+	output nodes id:613, type:Convolution
+id:45, name:cells.5.preprocess0.conv_1.weight, type:Constant, identifier:Constant;48,144,1,1float
+	output nodes id:632, type:Convolution
+id:46, name:cells.5.preprocess0.conv_2.weight, type:Constant, identifier:Constant;48,144,1,1float
+	output nodes id:643, type:Convolution
+id:47, name:cells.5.preprocess0.bn.weight, type:Constant, identifier:Constant;96float
+	output nodes id:645, type:BatchNormInference
+	output nodes id:645, type:BatchNormInference
+id:48, name:cells.5.preprocess0.bn.bias, type:Constant, identifier:Constant;96float
+	output nodes id:645, type:BatchNormInference
+	output nodes id:645, type:BatchNormInference
+id:87, name:cells.9._ops.8.1.weight, type:Constant, identifier:Constant;192,192,1,7float
+	output nodes id:960, type:Convolution
+id:90, name:cells.10.preprocess0.conv_1.weight, type:Constant, identifier:Constant;96,288,1,1float
+	output nodes id:979, type:Convolution
+id:91, name:cells.10.preprocess0.conv_2.weight, type:Constant, identifier:Constant;96,288,1,1float
+	output nodes id:990, type:Convolution
+id:92, name:cells.10.preprocess0.bn.weight, type:Constant, identifier:Constant;192float
+	output nodes id:992, type:BatchNormInference
+	output nodes id:992, type:BatchNormInference
+id:93, name:cells.10.preprocess0.bn.bias, type:Constant, identifier:Constant;192float
+	output nodes id:992, type:BatchNormInference
+	output nodes id:992, type:BatchNormInference
+id:126, name:classifier.weight, type:Constant, identifier:Constant;1000,576float
+	output nodes id:1258, type:Dot
+id:128, name:onnx::Conv_1727, type:Constant, identifier:Constant;24,3,3,3float
+	output nodes id:273, type:Convolution
+id:130, name:onnx::Conv_1730, type:Constant, identifier:Constant;48,24,3,3float
+	output nodes id:277, type:Convolution
+id:131, name:onnx::Conv_1733, type:Constant, identifier:Constant;48,48,3,3float
+	output nodes id:281, type:Convolution
+id:132, name:onnx::Conv_1736, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:300, type:Convolution
+id:133, name:onnx::Conv_1739, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:309, type:Convolution
+id:134, name:onnx::Conv_1742, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:315, type:Convolution
+id:135, name:onnx::Conv_1745, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:321, type:Convolution
+id:136, name:onnx::Conv_1748, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:327, type:Convolution
+id:137, name:onnx::Conv_1751, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:334, type:Convolution
+id:138, name:onnx::Conv_1754, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:340, type:Convolution
+id:139, name:onnx::Conv_1757, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:348, type:Convolution
+id:140, name:onnx::Conv_1760, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:354, type:Convolution
+id:141, name:onnx::Conv_1763, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:362, type:Convolution
+id:142, name:onnx::Conv_1766, type:Constant, identifier:Constant;48,144,1,1float
+	output nodes id:366, type:Convolution
+id:143, name:onnx::Conv_1769, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:375, type:Convolution
+id:144, name:onnx::Conv_1772, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:381, type:Convolution
+id:145, name:onnx::Conv_1775, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:387, type:Convolution
+id:146, name:onnx::Conv_1778, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:393, type:Convolution
+id:147, name:onnx::Conv_1781, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:400, type:Convolution
+id:148, name:onnx::Conv_1784, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:406, type:Convolution
+id:149, name:onnx::Conv_1787, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:414, type:Convolution
+id:150, name:onnx::Conv_1790, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:420, type:Convolution
+id:151, name:onnx::Conv_1793, type:Constant, identifier:Constant;48,144,1,1float
+	output nodes id:428, type:Convolution
+id:152, name:onnx::Conv_1796, type:Constant, identifier:Constant;48,144,1,1float
+	output nodes id:432, type:Convolution
+id:153, name:onnx::Conv_1799, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:441, type:Convolution
+id:154, name:onnx::Conv_1802, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:447, type:Convolution
+id:155, name:onnx::Conv_1805, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:453, type:Convolution
+id:156, name:onnx::Conv_1808, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:459, type:Convolution
+id:157, name:onnx::Conv_1811, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:466, type:Convolution
+id:158, name:onnx::Conv_1814, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:472, type:Convolution
+id:159, name:onnx::Conv_1817, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:480, type:Convolution
+id:160, name:onnx::Conv_1820, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:486, type:Convolution
+id:161, name:onnx::Conv_1823, type:Constant, identifier:Constant;48,144,1,1float
+	output nodes id:494, type:Convolution
+id:162, name:onnx::Conv_1826, type:Constant, identifier:Constant;48,144,1,1float
+	output nodes id:498, type:Convolution
+id:163, name:onnx::Conv_1829, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:507, type:Convolution
+id:164, name:onnx::Conv_1832, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:513, type:Convolution
+id:165, name:onnx::Conv_1835, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:519, type:Convolution
+id:166, name:onnx::Conv_1838, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:525, type:Convolution
+id:167, name:onnx::Conv_1841, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:532, type:Convolution
+id:168, name:onnx::Conv_1844, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:538, type:Convolution
+id:169, name:onnx::Conv_1847, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:546, type:Convolution
+id:170, name:onnx::Conv_1850, type:Constant, identifier:Constant;48,48,1,1float
+	output nodes id:552, type:Convolution
+id:171, name:onnx::Conv_1853, type:Constant, identifier:Constant;96,144,1,1float
+	output nodes id:560, type:Convolution
+id:172, name:onnx::Conv_1856, type:Constant, identifier:Constant;96,144,1,1float
+	output nodes id:564, type:Convolution
+id:173, name:onnx::Conv_1859, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:571, type:Convolution
+id:174, name:onnx::Conv_1862, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:577, type:Convolution
+id:175, name:onnx::Conv_1865, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:585, type:Convolution
+id:176, name:onnx::Conv_1868, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:591, type:Convolution
+id:177, name:onnx::Conv_1871, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:598, type:Convolution
+id:178, name:onnx::Conv_1874, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:604, type:Convolution
+id:179, name:onnx::Conv_1877, type:Constant, identifier:Constant;96,96,7,1float
+	output nodes id:614, type:Convolution
+id:180, name:onnx::Conv_1880, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:620, type:Convolution
+id:181, name:onnx::Conv_1883, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:626, type:Convolution
+id:182, name:onnx::Conv_1886, type:Constant, identifier:Constant;96,288,1,1float
+	output nodes id:647, type:Convolution
+id:183, name:onnx::Conv_1889, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:656, type:Convolution
+id:184, name:onnx::Conv_1892, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:662, type:Convolution
+id:185, name:onnx::Conv_1895, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:668, type:Convolution
+id:186, name:onnx::Conv_1898, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:674, type:Convolution
+id:187, name:onnx::Conv_1901, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:681, type:Convolution
+id:188, name:onnx::Conv_1904, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:687, type:Convolution
+id:189, name:onnx::Conv_1907, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:695, type:Convolution
+id:190, name:onnx::Conv_1910, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:701, type:Convolution
+id:191, name:onnx::Conv_1913, type:Constant, identifier:Constant;96,288,1,1float
+	output nodes id:709, type:Convolution
+id:192, name:onnx::Conv_1916, type:Constant, identifier:Constant;96,288,1,1float
+	output nodes id:713, type:Convolution
+id:193, name:onnx::Conv_1919, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:722, type:Convolution
+id:194, name:onnx::Conv_1922, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:728, type:Convolution
+id:195, name:onnx::Conv_1925, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:734, type:Convolution
+id:196, name:onnx::Conv_1928, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:740, type:Convolution
+id:197, name:onnx::Conv_1931, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:747, type:Convolution
+id:198, name:onnx::Conv_1934, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:753, type:Convolution
+id:199, name:onnx::Conv_1937, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:761, type:Convolution
+id:200, name:onnx::Conv_1940, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:767, type:Convolution
+id:201, name:onnx::Conv_1943, type:Constant, identifier:Constant;96,288,1,1float
+	output nodes id:775, type:Convolution
+id:202, name:onnx::Conv_1946, type:Constant, identifier:Constant;96,288,1,1float
+	output nodes id:779, type:Convolution
+id:203, name:onnx::Conv_1949, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:788, type:Convolution
+id:204, name:onnx::Conv_1952, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:794, type:Convolution
+id:205, name:onnx::Conv_1955, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:800, type:Convolution
+id:206, name:onnx::Conv_1958, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:806, type:Convolution
+id:207, name:onnx::Conv_1961, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:813, type:Convolution
+id:208, name:onnx::Conv_1964, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:819, type:Convolution
+id:209, name:onnx::Conv_1967, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:827, type:Convolution
+id:210, name:onnx::Conv_1970, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:833, type:Convolution
+id:211, name:onnx::Conv_1973, type:Constant, identifier:Constant;96,288,1,1float
+	output nodes id:841, type:Convolution
+id:212, name:onnx::Conv_1976, type:Constant, identifier:Constant;96,288,1,1float
+	output nodes id:845, type:Convolution
+id:213, name:onnx::Conv_1979, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:854, type:Convolution
+id:214, name:onnx::Conv_1982, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:860, type:Convolution
+id:215, name:onnx::Conv_1985, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:866, type:Convolution
+id:216, name:onnx::Conv_1988, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:872, type:Convolution
+id:217, name:onnx::Conv_1991, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:879, type:Convolution
+id:218, name:onnx::Conv_1994, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:885, type:Convolution
+id:219, name:onnx::Conv_1997, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:893, type:Convolution
+id:220, name:onnx::Conv_2000, type:Constant, identifier:Constant;96,96,1,1float
+	output nodes id:899, type:Convolution
+id:221, name:onnx::Conv_2003, type:Constant, identifier:Constant;192,288,1,1float
+	output nodes id:907, type:Convolution
+id:222, name:onnx::Conv_2006, type:Constant, identifier:Constant;192,288,1,1float
+	output nodes id:911, type:Convolution
+id:223, name:onnx::Conv_2009, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:918, type:Convolution
+id:224, name:onnx::Conv_2012, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:924, type:Convolution
+id:225, name:onnx::Conv_2015, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:932, type:Convolution
+id:226, name:onnx::Conv_2018, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:938, type:Convolution
+id:227, name:onnx::Conv_2021, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:945, type:Convolution
+id:228, name:onnx::Conv_2024, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:951, type:Convolution
+id:229, name:onnx::Conv_2027, type:Constant, identifier:Constant;192,192,7,1float
+	output nodes id:961, type:Convolution
+id:230, name:onnx::Conv_2030, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:967, type:Convolution
+id:231, name:onnx::Conv_2033, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:973, type:Convolution
+id:232, name:onnx::Conv_2036, type:Constant, identifier:Constant;192,576,1,1float
+	output nodes id:994, type:Convolution
+id:233, name:onnx::Conv_2039, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:1003, type:Convolution
+id:234, name:onnx::Conv_2042, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:1009, type:Convolution
+id:235, name:onnx::Conv_2045, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:1015, type:Convolution
+id:236, name:onnx::Conv_2048, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:1021, type:Convolution
+id:237, name:onnx::Conv_2051, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:1028, type:Convolution
+id:238, name:onnx::Conv_2054, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:1034, type:Convolution
+id:239, name:onnx::Conv_2057, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:1042, type:Convolution
+id:240, name:onnx::Conv_2060, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:1048, type:Convolution
+id:241, name:onnx::Conv_2063, type:Constant, identifier:Constant;192,576,1,1float
+	output nodes id:1056, type:Convolution
+id:242, name:onnx::Conv_2066, type:Constant, identifier:Constant;192,576,1,1float
+	output nodes id:1060, type:Convolution
+id:243, name:onnx::Conv_2069, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:1069, type:Convolution
+id:244, name:onnx::Conv_2072, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:1075, type:Convolution
+id:245, name:onnx::Conv_2075, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:1081, type:Convolution
+id:246, name:onnx::Conv_2078, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:1087, type:Convolution
+id:247, name:onnx::Conv_2081, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:1094, type:Convolution
+id:248, name:onnx::Conv_2084, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:1100, type:Convolution
+id:249, name:onnx::Conv_2087, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:1108, type:Convolution
+id:250, name:onnx::Conv_2090, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:1114, type:Convolution
+id:251, name:onnx::Conv_2093, type:Constant, identifier:Constant;192,576,1,1float
+	output nodes id:1122, type:Convolution
+id:252, name:onnx::Conv_2096, type:Constant, identifier:Constant;192,576,1,1float
+	output nodes id:1126, type:Convolution
+id:253, name:onnx::Conv_2099, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:1135, type:Convolution
+id:254, name:onnx::Conv_2102, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:1141, type:Convolution
+id:255, name:onnx::Conv_2105, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:1147, type:Convolution
+id:256, name:onnx::Conv_2108, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:1153, type:Convolution
+id:257, name:onnx::Conv_2111, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:1160, type:Convolution
+id:258, name:onnx::Conv_2114, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:1166, type:Convolution
+id:259, name:onnx::Conv_2117, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:1174, type:Convolution
+id:260, name:onnx::Conv_2120, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:1180, type:Convolution
+id:261, name:onnx::Conv_2123, type:Constant, identifier:Constant;192,576,1,1float
+	output nodes id:1188, type:Convolution
+id:262, name:onnx::Conv_2126, type:Constant, identifier:Constant;192,576,1,1float
+	output nodes id:1192, type:Convolution
+id:263, name:onnx::Conv_2129, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:1201, type:Convolution
+id:264, name:onnx::Conv_2132, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:1207, type:Convolution
+id:265, name:onnx::Conv_2135, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:1213, type:Convolution
+id:266, name:onnx::Conv_2138, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:1219, type:Convolution
+id:267, name:onnx::Conv_2141, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:1226, type:Convolution
+id:268, name:onnx::Conv_2144, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:1232, type:Convolution
+id:269, name:onnx::Conv_2147, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:1240, type:Convolution
+id:270, name:onnx::Conv_2150, type:Constant, identifier:Constant;192,192,1,1float
+	output nodes id:1246, type:Convolution
+id:271, name:onnx::Reshape_2154, type:Constant, identifier:Constant;2int64_t
+id:272, name:input, type:Parameter, identifier:Parameter;1,3,224,224float
+	output nodes id:273, type:Convolution
+id:273, name:Convolution_273, type:Convolution, identifier:Convolution1,3,224,224;24,3,3,3;1,24,112,112floatfloatfloatStrides{2, 2}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:275, type:Add
+id:275, name:Add_275, type:Add, identifier:Add1,24,112,112;1,24,112,112;1,24,112,112floatfloatfloat
+	output nodes id:276, type:Relu
+id:276, name:onnx::Conv_992, type:Relu, identifier:Relu1,24,112,112;1,24,112,112floatfloat
+	output nodes id:277, type:Convolution
+id:277, name:Convolution_277, type:Convolution, identifier:Convolution1,24,112,112;48,24,3,3;1,48,56,56floatfloatfloatStrides{2, 2}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:279, type:Add
+id:279, name:Add_279, type:Add, identifier:Add1,48,56,56;1,48,56,56;1,48,56,56floatfloatfloat
+	output nodes id:280, type:Relu
+id:280, name:onnx::Conv_995, type:Relu, identifier:Relu1,48,56,56;1,48,56,56floatfloat
+	output nodes id:281, type:Convolution
+	output nodes id:284, type:Relu
+id:281, name:Convolution_281, type:Convolution, identifier:Convolution1,48,56,56;48,48,3,3;1,48,28,28floatfloatfloatStrides{2, 2}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:283, type:Add
+id:283, name:Add_283, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:299, type:Relu
+	output nodes id:361, type:Relu
+id:284, name:input.24, type:Relu, identifier:Relu1,48,56,56;1,48,56,56floatfloat
+	output nodes id:285, type:Convolution
+	output nodes id:290, type:Slice
+id:285, name:Convolution_285, type:Convolution, identifier:Convolution1,48,56,56;24,48,1,1;1,24,28,28floatfloatfloatStrides{2, 2}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:297, type:Concat
+id:286, name:onnx::Slice_1000, type:Constant, identifier:Constant;1int64_t
+id:287, name:onnx::Slice_1001, type:Constant, identifier:Constant;1int64_t
+id:288, name:onnx::Slice_1002, type:Constant, identifier:Constant;1int64_t
+id:289, name:onnx::Slice_1003, type:Constant, identifier:Constant;1int64_t
+id:290, name:onnx::Slice_1004, type:Slice, identifier:Slice1,48,56,56;1,48,55,56floatfloat
+	output nodes id:295, type:Slice
+id:291, name:onnx::Slice_1005, type:Constant, identifier:Constant;1int64_t
+id:292, name:onnx::Slice_1006, type:Constant, identifier:Constant;1int64_t
+id:293, name:onnx::Slice_1007, type:Constant, identifier:Constant;1int64_t
+id:294, name:onnx::Slice_1008, type:Constant, identifier:Constant;1int64_t
+id:295, name:input.28, type:Slice, identifier:Slice1,48,55,56;1,48,55,55floatfloat
+	output nodes id:296, type:Convolution
+id:296, name:Convolution_296, type:Convolution, identifier:Convolution1,48,55,55;24,48,1,1;1,24,28,28floatfloatfloatStrides{2, 2}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:297, type:Concat
+id:297, name:input.32, type:Concat, identifier:Concat1,24,28,28;1,24,28,28;1,48,28,28floatfloatfloat
+	output nodes id:298, type:BatchNormInference
+id:298, name:input.36, type:BatchNormInference, identifier:BatchNormInference48;48;1,48,28,28;48;48;1,48,28,28floatfloatfloatfloatfloatfloat
+	output nodes id:303, type:AvgPool
+	output nodes id:306, type:Relu
+	output nodes id:331, type:Relu
+	output nodes id:359, type:Add
+id:299, name:input.40, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:300, type:Convolution
+id:300, name:Convolution_300, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:302, type:Add
+id:302, name:Add_302, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:304, type:MaxPool
+	output nodes id:345, type:Relu
+	output nodes id:357, type:Add
+	output nodes id:358, type:AvgPool
+id:303, name:onnx::Add_1016, type:AvgPool, identifier:AvgPool1,48,28,28;1,48,28,28floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:305, type:Add
+id:304, name:onnx::Add_1017, type:MaxPool, identifier:MaxPool1,48,28,28;1,48,28,28floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:305, type:Add
+id:305, name:input.52, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:318, type:Relu
+id:306, name:input.56, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:308, type:DepthwiseConv2dNative
+id:308, name:Conv_173, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,48,28,28;3,3,48,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:309, type:Convolution
+id:309, name:Convolution_309, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:311, type:Add
+id:311, name:Add_311, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:312, type:Relu
+id:312, name:input.72, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:314, type:DepthwiseConv2dNative
+id:314, name:Conv_176, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,48,28,28;3,3,48,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:315, type:Convolution
+id:315, name:Convolution_315, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:317, type:Add
+id:317, name:Add_317, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:330, type:Add
+id:318, name:input.84, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:320, type:DepthwiseConv2dNative
+id:320, name:Conv_179, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,48,28,28;5,5,48,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{2, 2}
+	output nodes id:321, type:Convolution
+id:321, name:Convolution_321, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:323, type:Add
+id:323, name:Add_323, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:324, type:Relu
+id:324, name:input.100, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:326, type:DepthwiseConv2dNative
+id:326, name:Conv_182, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,48,28,28;5,5,48,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{2, 2}
+	output nodes id:327, type:Convolution
+id:327, name:Convolution_327, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:329, type:Add
+id:329, name:Add_329, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:330, type:Add
+id:330, name:onnx::AveragePool_1035, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:343, type:AvgPool
+id:331, name:input.112, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:333, type:DepthwiseConv2dNative
+id:333, name:Conv_186, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,48,28,28;3,3,48,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:334, type:Convolution
+id:334, name:Convolution_334, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:336, type:Add
+id:336, name:Add_336, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:337, type:Relu
+id:337, name:input.128, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:339, type:DepthwiseConv2dNative
+id:339, name:Conv_189, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,48,28,28;3,3,48,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:340, type:Convolution
+id:340, name:Convolution_340, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:342, type:Add
+id:342, name:Add_342, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:344, type:Add
+id:343, name:onnx::Add_1044, type:AvgPool, identifier:AvgPool1,48,28,28;1,48,28,28floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:344, type:Add
+id:344, name:onnx::Concat_1045, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:360, type:Concat
+id:345, name:input.140, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:347, type:DepthwiseConv2dNative
+id:347, name:Conv_194, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,48,28,28;3,3,48,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:348, type:Convolution
+id:348, name:Convolution_348, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:350, type:Add
+id:350, name:Add_350, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:351, type:Relu
+id:351, name:input.156, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:353, type:DepthwiseConv2dNative
+id:353, name:Conv_197, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,48,28,28;3,3,48,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:354, type:Convolution
+id:354, name:Convolution_354, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:356, type:Add
+id:356, name:Add_356, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:357, type:Add
+id:357, name:onnx::Concat_1054, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:360, type:Concat
+id:358, name:onnx::Add_1055, type:AvgPool, identifier:AvgPool1,48,28,28;1,48,28,28floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:359, type:Add
+id:359, name:onnx::Concat_1056, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:360, type:Concat
+id:360, name:input.168, type:Concat, identifier:Concat1,48,28,28;1,48,28,28;1,48,28,28;1,144,28,28floatfloatfloatfloat
+	output nodes id:365, type:Relu
+	output nodes id:427, type:Relu
+id:361, name:input.172, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:362, type:Convolution
+id:362, name:Convolution_362, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:364, type:Add
+id:364, name:Add_364, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:369, type:AvgPool
+	output nodes id:372, type:Relu
+	output nodes id:397, type:Relu
+	output nodes id:425, type:Add
+id:365, name:input.184, type:Relu, identifier:Relu1,144,28,28;1,144,28,28floatfloat
+	output nodes id:366, type:Convolution
+id:366, name:Convolution_366, type:Convolution, identifier:Convolution1,144,28,28;48,144,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:368, type:Add
+id:368, name:Add_368, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:370, type:MaxPool
+	output nodes id:411, type:Relu
+	output nodes id:423, type:Add
+	output nodes id:424, type:AvgPool
+id:369, name:onnx::Add_1064, type:AvgPool, identifier:AvgPool1,48,28,28;1,48,28,28floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:371, type:Add
+id:370, name:onnx::Add_1065, type:MaxPool, identifier:MaxPool1,48,28,28;1,48,28,28floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:371, type:Add
+id:371, name:input.196, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:384, type:Relu
+id:372, name:input.200, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:374, type:DepthwiseConv2dNative
+id:374, name:Conv_211, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,48,28,28;3,3,48,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:375, type:Convolution
+id:375, name:Convolution_375, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:377, type:Add
+id:377, name:Add_377, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:378, type:Relu
+id:378, name:input.216, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:380, type:DepthwiseConv2dNative
+id:380, name:Conv_214, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,48,28,28;3,3,48,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:381, type:Convolution
+id:381, name:Convolution_381, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:383, type:Add
+id:383, name:Add_383, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:396, type:Add
+id:384, name:input.228, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:386, type:DepthwiseConv2dNative
+id:386, name:Conv_217, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,48,28,28;5,5,48,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{2, 2}
+	output nodes id:387, type:Convolution
+id:387, name:Convolution_387, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:389, type:Add
+id:389, name:Add_389, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:390, type:Relu
+id:390, name:input.244, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:392, type:DepthwiseConv2dNative
+id:392, name:Conv_220, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,48,28,28;5,5,48,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{2, 2}
+	output nodes id:393, type:Convolution
+id:393, name:Convolution_393, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:395, type:Add
+id:395, name:Add_395, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:396, type:Add
+id:396, name:onnx::AveragePool_1083, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:409, type:AvgPool
+id:397, name:input.256, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:399, type:DepthwiseConv2dNative
+id:399, name:Conv_224, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,48,28,28;3,3,48,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:400, type:Convolution
+id:400, name:Convolution_400, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:402, type:Add
+id:402, name:Add_402, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:403, type:Relu
+id:403, name:input.272, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:405, type:DepthwiseConv2dNative
+id:405, name:Conv_227, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,48,28,28;3,3,48,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:406, type:Convolution
+id:406, name:Convolution_406, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:408, type:Add
+id:408, name:Add_408, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:410, type:Add
+id:409, name:onnx::Add_1092, type:AvgPool, identifier:AvgPool1,48,28,28;1,48,28,28floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:410, type:Add
+id:410, name:onnx::Concat_1093, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:426, type:Concat
+id:411, name:input.284, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:413, type:DepthwiseConv2dNative
+id:413, name:Conv_232, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,48,28,28;3,3,48,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:414, type:Convolution
+id:414, name:Convolution_414, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:416, type:Add
+id:416, name:Add_416, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:417, type:Relu
+id:417, name:input.300, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:419, type:DepthwiseConv2dNative
+id:419, name:Conv_235, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,48,28,28;3,3,48,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:420, type:Convolution
+id:420, name:Convolution_420, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:422, type:Add
+id:422, name:Add_422, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:423, type:Add
+id:423, name:onnx::Concat_1102, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:426, type:Concat
+id:424, name:onnx::Add_1103, type:AvgPool, identifier:AvgPool1,48,28,28;1,48,28,28floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:425, type:Add
+id:425, name:onnx::Concat_1104, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:426, type:Concat
+id:426, name:input.312, type:Concat, identifier:Concat1,48,28,28;1,48,28,28;1,48,28,28;1,144,28,28floatfloatfloatfloat
+	output nodes id:431, type:Relu
+	output nodes id:493, type:Relu
+id:427, name:input.316, type:Relu, identifier:Relu1,144,28,28;1,144,28,28floatfloat
+	output nodes id:428, type:Convolution
+id:428, name:Convolution_428, type:Convolution, identifier:Convolution1,144,28,28;48,144,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:430, type:Add
+id:430, name:Add_430, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:435, type:AvgPool
+	output nodes id:438, type:Relu
+	output nodes id:463, type:Relu
+	output nodes id:491, type:Add
+id:431, name:input.328, type:Relu, identifier:Relu1,144,28,28;1,144,28,28floatfloat
+	output nodes id:432, type:Convolution
+id:432, name:Convolution_432, type:Convolution, identifier:Convolution1,144,28,28;48,144,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:434, type:Add
+id:434, name:Add_434, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:436, type:MaxPool
+	output nodes id:477, type:Relu
+	output nodes id:489, type:Add
+	output nodes id:490, type:AvgPool
+id:435, name:onnx::Add_1112, type:AvgPool, identifier:AvgPool1,48,28,28;1,48,28,28floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:437, type:Add
+id:436, name:onnx::Add_1113, type:MaxPool, identifier:MaxPool1,48,28,28;1,48,28,28floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:437, type:Add
+id:437, name:input.340, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:450, type:Relu
+id:438, name:input.344, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:440, type:DepthwiseConv2dNative
+id:440, name:Conv_249, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,48,28,28;3,3,48,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:441, type:Convolution
+id:441, name:Convolution_441, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:443, type:Add
+id:443, name:Add_443, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:444, type:Relu
+id:444, name:input.360, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:446, type:DepthwiseConv2dNative
+id:446, name:Conv_252, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,48,28,28;3,3,48,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:447, type:Convolution
+id:447, name:Convolution_447, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:449, type:Add
+id:449, name:Add_449, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:462, type:Add
+id:450, name:input.372, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:452, type:DepthwiseConv2dNative
+id:452, name:Conv_255, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,48,28,28;5,5,48,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{2, 2}
+	output nodes id:453, type:Convolution
+id:453, name:Convolution_453, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:455, type:Add
+id:455, name:Add_455, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:456, type:Relu
+id:456, name:input.388, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:458, type:DepthwiseConv2dNative
+id:458, name:Conv_258, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,48,28,28;5,5,48,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{2, 2}
+	output nodes id:459, type:Convolution
+id:459, name:Convolution_459, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:461, type:Add
+id:461, name:Add_461, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:462, type:Add
+id:462, name:onnx::AveragePool_1131, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:475, type:AvgPool
+id:463, name:input.400, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:465, type:DepthwiseConv2dNative
+id:465, name:Conv_262, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,48,28,28;3,3,48,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:466, type:Convolution
+id:466, name:Convolution_466, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:468, type:Add
+id:468, name:Add_468, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:469, type:Relu
+id:469, name:input.416, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:471, type:DepthwiseConv2dNative
+id:471, name:Conv_265, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,48,28,28;3,3,48,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:472, type:Convolution
+id:472, name:Convolution_472, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:474, type:Add
+id:474, name:Add_474, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:476, type:Add
+id:475, name:onnx::Add_1140, type:AvgPool, identifier:AvgPool1,48,28,28;1,48,28,28floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:476, type:Add
+id:476, name:onnx::Concat_1141, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:492, type:Concat
+id:477, name:input.428, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:479, type:DepthwiseConv2dNative
+id:479, name:Conv_270, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,48,28,28;3,3,48,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:480, type:Convolution
+id:480, name:Convolution_480, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:482, type:Add
+id:482, name:Add_482, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:483, type:Relu
+id:483, name:input.444, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:485, type:DepthwiseConv2dNative
+id:485, name:Conv_273, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,48,28,28;3,3,48,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:486, type:Convolution
+id:486, name:Convolution_486, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:488, type:Add
+id:488, name:Add_488, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:489, type:Add
+id:489, name:onnx::Concat_1150, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:492, type:Concat
+id:490, name:onnx::Add_1151, type:AvgPool, identifier:AvgPool1,48,28,28;1,48,28,28floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:491, type:Add
+id:491, name:onnx::Concat_1152, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:492, type:Concat
+id:492, name:input.456, type:Concat, identifier:Concat1,48,28,28;1,48,28,28;1,48,28,28;1,144,28,28floatfloatfloatfloat
+	output nodes id:497, type:Relu
+	output nodes id:559, type:Relu
+id:493, name:input.460, type:Relu, identifier:Relu1,144,28,28;1,144,28,28floatfloat
+	output nodes id:494, type:Convolution
+id:494, name:Convolution_494, type:Convolution, identifier:Convolution1,144,28,28;48,144,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:496, type:Add
+id:496, name:Add_496, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:501, type:AvgPool
+	output nodes id:504, type:Relu
+	output nodes id:529, type:Relu
+	output nodes id:557, type:Add
+id:497, name:input.472, type:Relu, identifier:Relu1,144,28,28;1,144,28,28floatfloat
+	output nodes id:498, type:Convolution
+id:498, name:Convolution_498, type:Convolution, identifier:Convolution1,144,28,28;48,144,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:500, type:Add
+id:500, name:Add_500, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:502, type:MaxPool
+	output nodes id:543, type:Relu
+	output nodes id:555, type:Add
+	output nodes id:556, type:AvgPool
+id:501, name:onnx::Add_1160, type:AvgPool, identifier:AvgPool1,48,28,28;1,48,28,28floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:503, type:Add
+id:502, name:onnx::Add_1161, type:MaxPool, identifier:MaxPool1,48,28,28;1,48,28,28floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:503, type:Add
+id:503, name:input.484, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:516, type:Relu
+id:504, name:input.488, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:506, type:DepthwiseConv2dNative
+id:506, name:Conv_287, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,48,28,28;3,3,48,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:507, type:Convolution
+id:507, name:Convolution_507, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:509, type:Add
+id:509, name:Add_509, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:510, type:Relu
+id:510, name:input.504, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:512, type:DepthwiseConv2dNative
+id:512, name:Conv_290, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,48,28,28;3,3,48,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:513, type:Convolution
+id:513, name:Convolution_513, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:515, type:Add
+id:515, name:Add_515, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:528, type:Add
+id:516, name:input.516, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:518, type:DepthwiseConv2dNative
+id:518, name:Conv_293, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,48,28,28;5,5,48,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{2, 2}
+	output nodes id:519, type:Convolution
+id:519, name:Convolution_519, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:521, type:Add
+id:521, name:Add_521, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:522, type:Relu
+id:522, name:input.532, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:524, type:DepthwiseConv2dNative
+id:524, name:Conv_296, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,48,28,28;5,5,48,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{2, 2}
+	output nodes id:525, type:Convolution
+id:525, name:Convolution_525, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:527, type:Add
+id:527, name:Add_527, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:528, type:Add
+id:528, name:onnx::AveragePool_1179, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:541, type:AvgPool
+id:529, name:input.544, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:531, type:DepthwiseConv2dNative
+id:531, name:Conv_300, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,48,28,28;3,3,48,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:532, type:Convolution
+id:532, name:Convolution_532, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:534, type:Add
+id:534, name:Add_534, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:535, type:Relu
+id:535, name:input.560, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:537, type:DepthwiseConv2dNative
+id:537, name:Conv_303, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,48,28,28;3,3,48,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:538, type:Convolution
+id:538, name:Convolution_538, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:540, type:Add
+id:540, name:Add_540, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:542, type:Add
+id:541, name:onnx::Add_1188, type:AvgPool, identifier:AvgPool1,48,28,28;1,48,28,28floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:542, type:Add
+id:542, name:onnx::Concat_1189, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:558, type:Concat
+id:543, name:input.572, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:545, type:DepthwiseConv2dNative
+id:545, name:Conv_308, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,48,28,28;3,3,48,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:546, type:Convolution
+id:546, name:Convolution_546, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:548, type:Add
+id:548, name:Add_548, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:549, type:Relu
+id:549, name:input.588, type:Relu, identifier:Relu1,48,28,28;1,48,28,28floatfloat
+	output nodes id:551, type:DepthwiseConv2dNative
+id:551, name:Conv_311, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,48,28,28;3,3,48,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:552, type:Convolution
+id:552, name:Convolution_552, type:Convolution, identifier:Convolution1,48,28,28;48,48,1,1;1,48,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:554, type:Add
+id:554, name:Add_554, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:555, type:Add
+id:555, name:onnx::Concat_1198, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:558, type:Concat
+id:556, name:onnx::Add_1199, type:AvgPool, identifier:AvgPool1,48,28,28;1,48,28,28floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:557, type:Add
+id:557, name:onnx::Concat_1200, type:Add, identifier:Add1,48,28,28;1,48,28,28;1,48,28,28floatfloatfloat
+	output nodes id:558, type:Concat
+id:558, name:input.600, type:Concat, identifier:Concat1,48,28,28;1,48,28,28;1,48,28,28;1,144,28,28floatfloatfloatfloat
+	output nodes id:563, type:Relu
+	output nodes id:631, type:Relu
+id:559, name:input.604, type:Relu, identifier:Relu1,144,28,28;1,144,28,28floatfloat
+	output nodes id:560, type:Convolution
+id:560, name:Convolution_560, type:Convolution, identifier:Convolution1,144,28,28;96,144,1,1;1,96,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:562, type:Add
+id:562, name:Add_562, type:Add, identifier:Add1,96,28,28;1,96,28,28;1,96,28,28floatfloatfloat
+	output nodes id:567, type:AvgPool
+	output nodes id:581, type:MaxPool
+	output nodes id:595, type:Relu
+	output nodes id:609, type:MaxPool
+	output nodes id:612, type:Relu
+id:563, name:input.616, type:Relu, identifier:Relu1,144,28,28;1,144,28,28floatfloat
+	output nodes id:564, type:Convolution
+id:564, name:Convolution_564, type:Convolution, identifier:Convolution1,144,28,28;96,144,1,1;1,96,28,28floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:566, type:Add
+id:566, name:Add_566, type:Add, identifier:Add1,96,28,28;1,96,28,28;1,96,28,28floatfloatfloat
+	output nodes id:568, type:Relu
+	output nodes id:607, type:AvgPool
+	output nodes id:610, type:MaxPool
+id:567, name:onnx::Add_1208, type:AvgPool, identifier:AvgPool1,96,28,28;1,96,14,14floatfloatShape{3, 3}Strides{2, 2}Shape{1, 1}Shape{1, 1}
+	output nodes id:580, type:Add
+id:568, name:input.628, type:Relu, identifier:Relu1,96,28,28;1,96,28,28floatfloat
+	output nodes id:570, type:DepthwiseConv2dNative
+id:570, name:Conv_323, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,28,28;3,3,96,1;1,96,14,14floatfloatfloatStrides{2, 2}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:571, type:Convolution
+id:571, name:Convolution_571, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:573, type:Add
+id:573, name:Add_573, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:574, type:Relu
+id:574, name:input.644, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:576, type:DepthwiseConv2dNative
+id:576, name:Conv_326, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;3,3,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:577, type:Convolution
+id:577, name:Convolution_577, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:579, type:Add
+id:579, name:Add_579, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:580, type:Add
+id:580, name:input.656, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:582, type:Relu
+id:581, name:onnx::Add_1218, type:MaxPool, identifier:MaxPool1,96,28,28;1,96,14,14floatfloatShape{3, 3}Strides{2, 2}Shape{1, 1}Shape{1, 1}
+	output nodes id:594, type:Add
+id:582, name:input.660, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:584, type:DepthwiseConv2dNative
+id:584, name:Conv_331, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;7,7,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{3, 3}
+	output nodes id:585, type:Convolution
+id:585, name:Convolution_585, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:587, type:Add
+id:587, name:Add_587, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:588, type:Relu
+id:588, name:input.676, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:590, type:DepthwiseConv2dNative
+id:590, name:Conv_334, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;7,7,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{3, 3}
+	output nodes id:591, type:Convolution
+id:591, name:Convolution_591, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:593, type:Add
+id:593, name:Add_593, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:594, type:Add
+id:594, name:onnx::Concat_1227, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:630, type:Concat
+id:595, name:input.688, type:Relu, identifier:Relu1,96,28,28;1,96,28,28floatfloat
+	output nodes id:597, type:DepthwiseConv2dNative
+id:597, name:Conv_338, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,28,28;7,7,96,1;1,96,14,14floatfloatfloatStrides{2, 2}Strides{1, 1}CoordinateDiff{3, 3}
+	output nodes id:598, type:Convolution
+id:598, name:Convolution_598, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:600, type:Add
+id:600, name:Add_600, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:601, type:Relu
+id:601, name:input.704, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:603, type:DepthwiseConv2dNative
+id:603, name:Conv_341, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;7,7,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{3, 3}
+	output nodes id:604, type:Convolution
+id:604, name:Convolution_604, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:606, type:Add
+id:606, name:Add_606, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:608, type:Add
+id:607, name:onnx::Add_1236, type:AvgPool, identifier:AvgPool1,96,28,28;1,96,14,14floatfloatShape{3, 3}Strides{2, 2}Shape{1, 1}Shape{1, 1}
+	output nodes id:608, type:Add
+id:608, name:onnx::Concat_1237, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:630, type:Concat
+id:609, name:onnx::Add_1238, type:MaxPool, identifier:MaxPool1,96,28,28;1,96,14,14floatfloatShape{3, 3}Strides{2, 2}Shape{1, 1}Shape{1, 1}
+	output nodes id:611, type:Add
+id:610, name:onnx::Add_1239, type:MaxPool, identifier:MaxPool1,96,28,28;1,96,14,14floatfloatShape{3, 3}Strides{2, 2}Shape{1, 1}Shape{1, 1}
+	output nodes id:611, type:Add
+id:611, name:input.716, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:617, type:Relu
+id:612, name:input.720, type:Relu, identifier:Relu1,96,28,28;1,96,28,28floatfloat
+	output nodes id:613, type:Convolution
+id:613, name:Convolution_613, type:Convolution, identifier:Convolution1,96,28,28;96,96,1,7;1,96,28,14floatfloatfloatStrides{1, 2}Strides{1, 1}CoordinateDiff{0, 3}
+	output nodes id:614, type:Convolution
+id:614, name:Convolution_614, type:Convolution, identifier:Convolution1,96,28,14;96,96,7,1;1,96,14,14floatfloatfloatStrides{2, 1}Strides{1, 1}CoordinateDiff{3, 0}
+	output nodes id:616, type:Add
+id:616, name:Add_616, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:629, type:Add
+id:617, name:input.732, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:619, type:DepthwiseConv2dNative
+id:619, name:Conv_352, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;3,3,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:620, type:Convolution
+id:620, name:Convolution_620, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:622, type:Add
+id:622, name:Add_622, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:623, type:Relu
+id:623, name:input.748, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:625, type:DepthwiseConv2dNative
+id:625, name:Conv_355, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;3,3,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:626, type:Convolution
+id:626, name:Convolution_626, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:628, type:Add
+id:628, name:Add_628, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:629, type:Add
+id:629, name:onnx::Concat_1253, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:630, type:Concat
+id:630, name:input.760, type:Concat, identifier:Concat1,96,14,14;1,96,14,14;1,96,14,14;1,288,14,14floatfloatfloatfloat
+	output nodes id:646, type:Relu
+	output nodes id:708, type:Relu
+id:631, name:input.764, type:Relu, identifier:Relu1,144,28,28;1,144,28,28floatfloat
+	output nodes id:632, type:Convolution
+	output nodes id:637, type:Slice
+id:632, name:Convolution_632, type:Convolution, identifier:Convolution1,144,28,28;48,144,1,1;1,48,14,14floatfloatfloatStrides{2, 2}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:644, type:Concat
+id:633, name:onnx::Slice_1257, type:Constant, identifier:Constant;1int64_t
+id:634, name:onnx::Slice_1258, type:Constant, identifier:Constant;1int64_t
+id:635, name:onnx::Slice_1259, type:Constant, identifier:Constant;1int64_t
+id:636, name:onnx::Slice_1260, type:Constant, identifier:Constant;1int64_t
+id:637, name:onnx::Slice_1261, type:Slice, identifier:Slice1,144,28,28;1,144,27,28floatfloat
+	output nodes id:642, type:Slice
+id:638, name:onnx::Slice_1262, type:Constant, identifier:Constant;1int64_t
+id:639, name:onnx::Slice_1263, type:Constant, identifier:Constant;1int64_t
+id:640, name:onnx::Slice_1264, type:Constant, identifier:Constant;1int64_t
+id:641, name:onnx::Slice_1265, type:Constant, identifier:Constant;1int64_t
+id:642, name:input.768, type:Slice, identifier:Slice1,144,27,28;1,144,27,27floatfloat
+	output nodes id:643, type:Convolution
+id:643, name:Convolution_643, type:Convolution, identifier:Convolution1,144,27,27;48,144,1,1;1,48,14,14floatfloatfloatStrides{2, 2}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:644, type:Concat
+id:644, name:input.772, type:Concat, identifier:Concat1,48,14,14;1,48,14,14;1,96,14,14floatfloatfloat
+	output nodes id:645, type:BatchNormInference
+id:645, name:input.776, type:BatchNormInference, identifier:BatchNormInference96;96;1,96,14,14;96;96;1,96,14,14floatfloatfloatfloatfloatfloat
+	output nodes id:650, type:AvgPool
+	output nodes id:653, type:Relu
+	output nodes id:678, type:Relu
+	output nodes id:706, type:Add
+id:646, name:input.780, type:Relu, identifier:Relu1,288,14,14;1,288,14,14floatfloat
+	output nodes id:647, type:Convolution
+id:647, name:Convolution_647, type:Convolution, identifier:Convolution1,288,14,14;96,288,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:649, type:Add
+id:649, name:Add_649, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:651, type:MaxPool
+	output nodes id:692, type:Relu
+	output nodes id:704, type:Add
+	output nodes id:705, type:AvgPool
+id:650, name:onnx::Add_1273, type:AvgPool, identifier:AvgPool1,96,14,14;1,96,14,14floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:652, type:Add
+id:651, name:onnx::Add_1274, type:MaxPool, identifier:MaxPool1,96,14,14;1,96,14,14floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:652, type:Add
+id:652, name:input.792, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:665, type:Relu
+id:653, name:input.796, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:655, type:DepthwiseConv2dNative
+id:655, name:Conv_380, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;3,3,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:656, type:Convolution
+id:656, name:Convolution_656, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:658, type:Add
+id:658, name:Add_658, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:659, type:Relu
+id:659, name:input.812, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:661, type:DepthwiseConv2dNative
+id:661, name:Conv_383, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;3,3,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:662, type:Convolution
+id:662, name:Convolution_662, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:664, type:Add
+id:664, name:Add_664, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:677, type:Add
+id:665, name:input.824, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:667, type:DepthwiseConv2dNative
+id:667, name:Conv_386, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;5,5,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{2, 2}
+	output nodes id:668, type:Convolution
+id:668, name:Convolution_668, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:670, type:Add
+id:670, name:Add_670, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:671, type:Relu
+id:671, name:input.840, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:673, type:DepthwiseConv2dNative
+id:673, name:Conv_389, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;5,5,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{2, 2}
+	output nodes id:674, type:Convolution
+id:674, name:Convolution_674, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:676, type:Add
+id:676, name:Add_676, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:677, type:Add
+id:677, name:onnx::AveragePool_1292, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:690, type:AvgPool
+id:678, name:input.852, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:680, type:DepthwiseConv2dNative
+id:680, name:Conv_393, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;3,3,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:681, type:Convolution
+id:681, name:Convolution_681, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:683, type:Add
+id:683, name:Add_683, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:684, type:Relu
+id:684, name:input.868, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:686, type:DepthwiseConv2dNative
+id:686, name:Conv_396, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;3,3,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:687, type:Convolution
+id:687, name:Convolution_687, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:689, type:Add
+id:689, name:Add_689, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:691, type:Add
+id:690, name:onnx::Add_1301, type:AvgPool, identifier:AvgPool1,96,14,14;1,96,14,14floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:691, type:Add
+id:691, name:onnx::Concat_1302, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:707, type:Concat
+id:692, name:input.880, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:694, type:DepthwiseConv2dNative
+id:694, name:Conv_401, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;3,3,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:695, type:Convolution
+id:695, name:Convolution_695, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:697, type:Add
+id:697, name:Add_697, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:698, type:Relu
+id:698, name:input.896, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:700, type:DepthwiseConv2dNative
+id:700, name:Conv_404, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;3,3,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:701, type:Convolution
+id:701, name:Convolution_701, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:703, type:Add
+id:703, name:Add_703, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:704, type:Add
+id:704, name:onnx::Concat_1311, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:707, type:Concat
+id:705, name:onnx::Add_1312, type:AvgPool, identifier:AvgPool1,96,14,14;1,96,14,14floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:706, type:Add
+id:706, name:onnx::Concat_1313, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:707, type:Concat
+id:707, name:input.908, type:Concat, identifier:Concat1,96,14,14;1,96,14,14;1,96,14,14;1,288,14,14floatfloatfloatfloat
+	output nodes id:712, type:Relu
+	output nodes id:774, type:Relu
+id:708, name:input.912, type:Relu, identifier:Relu1,288,14,14;1,288,14,14floatfloat
+	output nodes id:709, type:Convolution
+id:709, name:Convolution_709, type:Convolution, identifier:Convolution1,288,14,14;96,288,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:711, type:Add
+id:711, name:Add_711, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:716, type:AvgPool
+	output nodes id:719, type:Relu
+	output nodes id:744, type:Relu
+	output nodes id:772, type:Add
+id:712, name:input.924, type:Relu, identifier:Relu1,288,14,14;1,288,14,14floatfloat
+	output nodes id:713, type:Convolution
+id:713, name:Convolution_713, type:Convolution, identifier:Convolution1,288,14,14;96,288,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:715, type:Add
+id:715, name:Add_715, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:717, type:MaxPool
+	output nodes id:758, type:Relu
+	output nodes id:770, type:Add
+	output nodes id:771, type:AvgPool
+id:716, name:onnx::Add_1321, type:AvgPool, identifier:AvgPool1,96,14,14;1,96,14,14floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:718, type:Add
+id:717, name:onnx::Add_1322, type:MaxPool, identifier:MaxPool1,96,14,14;1,96,14,14floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:718, type:Add
+id:718, name:input.936, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:731, type:Relu
+id:719, name:input.940, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:721, type:DepthwiseConv2dNative
+id:721, name:Conv_418, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;3,3,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:722, type:Convolution
+id:722, name:Convolution_722, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:724, type:Add
+id:724, name:Add_724, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:725, type:Relu
+id:725, name:input.956, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:727, type:DepthwiseConv2dNative
+id:727, name:Conv_421, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;3,3,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:728, type:Convolution
+id:728, name:Convolution_728, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:730, type:Add
+id:730, name:Add_730, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:743, type:Add
+id:731, name:input.968, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:733, type:DepthwiseConv2dNative
+id:733, name:Conv_424, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;5,5,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{2, 2}
+	output nodes id:734, type:Convolution
+id:734, name:Convolution_734, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:736, type:Add
+id:736, name:Add_736, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:737, type:Relu
+id:737, name:input.984, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:739, type:DepthwiseConv2dNative
+id:739, name:Conv_427, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;5,5,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{2, 2}
+	output nodes id:740, type:Convolution
+id:740, name:Convolution_740, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:742, type:Add
+id:742, name:Add_742, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:743, type:Add
+id:743, name:onnx::AveragePool_1340, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:756, type:AvgPool
+id:744, name:input.996, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:746, type:DepthwiseConv2dNative
+id:746, name:Conv_431, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;3,3,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:747, type:Convolution
+id:747, name:Convolution_747, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:749, type:Add
+id:749, name:Add_749, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:750, type:Relu
+id:750, name:input.1012, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:752, type:DepthwiseConv2dNative
+id:752, name:Conv_434, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;3,3,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:753, type:Convolution
+id:753, name:Convolution_753, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:755, type:Add
+id:755, name:Add_755, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:757, type:Add
+id:756, name:onnx::Add_1349, type:AvgPool, identifier:AvgPool1,96,14,14;1,96,14,14floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:757, type:Add
+id:757, name:onnx::Concat_1350, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:773, type:Concat
+id:758, name:input.1024, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:760, type:DepthwiseConv2dNative
+id:760, name:Conv_439, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;3,3,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:761, type:Convolution
+id:761, name:Convolution_761, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:763, type:Add
+id:763, name:Add_763, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:764, type:Relu
+id:764, name:input.1040, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:766, type:DepthwiseConv2dNative
+id:766, name:Conv_442, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;3,3,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:767, type:Convolution
+id:767, name:Convolution_767, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:769, type:Add
+id:769, name:Add_769, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:770, type:Add
+id:770, name:onnx::Concat_1359, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:773, type:Concat
+id:771, name:onnx::Add_1360, type:AvgPool, identifier:AvgPool1,96,14,14;1,96,14,14floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:772, type:Add
+id:772, name:onnx::Concat_1361, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:773, type:Concat
+id:773, name:input.1052, type:Concat, identifier:Concat1,96,14,14;1,96,14,14;1,96,14,14;1,288,14,14floatfloatfloatfloat
+	output nodes id:778, type:Relu
+	output nodes id:840, type:Relu
+id:774, name:input.1056, type:Relu, identifier:Relu1,288,14,14;1,288,14,14floatfloat
+	output nodes id:775, type:Convolution
+id:775, name:Convolution_775, type:Convolution, identifier:Convolution1,288,14,14;96,288,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:777, type:Add
+id:777, name:Add_777, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:782, type:AvgPool
+	output nodes id:785, type:Relu
+	output nodes id:810, type:Relu
+	output nodes id:838, type:Add
+id:778, name:input.1068, type:Relu, identifier:Relu1,288,14,14;1,288,14,14floatfloat
+	output nodes id:779, type:Convolution
+id:779, name:Convolution_779, type:Convolution, identifier:Convolution1,288,14,14;96,288,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:781, type:Add
+id:781, name:Add_781, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:783, type:MaxPool
+	output nodes id:824, type:Relu
+	output nodes id:836, type:Add
+	output nodes id:837, type:AvgPool
+id:782, name:onnx::Add_1369, type:AvgPool, identifier:AvgPool1,96,14,14;1,96,14,14floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:784, type:Add
+id:783, name:onnx::Add_1370, type:MaxPool, identifier:MaxPool1,96,14,14;1,96,14,14floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:784, type:Add
+id:784, name:input.1080, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:797, type:Relu
+id:785, name:input.1084, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:787, type:DepthwiseConv2dNative
+id:787, name:Conv_456, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;3,3,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:788, type:Convolution
+id:788, name:Convolution_788, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:790, type:Add
+id:790, name:Add_790, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:791, type:Relu
+id:791, name:input.1100, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:793, type:DepthwiseConv2dNative
+id:793, name:Conv_459, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;3,3,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:794, type:Convolution
+id:794, name:Convolution_794, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:796, type:Add
+id:796, name:Add_796, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:809, type:Add
+id:797, name:input.1112, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:799, type:DepthwiseConv2dNative
+id:799, name:Conv_462, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;5,5,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{2, 2}
+	output nodes id:800, type:Convolution
+id:800, name:Convolution_800, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:802, type:Add
+id:802, name:Add_802, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:803, type:Relu
+id:803, name:input.1128, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:805, type:DepthwiseConv2dNative
+id:805, name:Conv_465, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;5,5,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{2, 2}
+	output nodes id:806, type:Convolution
+id:806, name:Convolution_806, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:808, type:Add
+id:808, name:Add_808, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:809, type:Add
+id:809, name:onnx::AveragePool_1388, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:822, type:AvgPool
+id:810, name:input.1140, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:812, type:DepthwiseConv2dNative
+id:812, name:Conv_469, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;3,3,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:813, type:Convolution
+id:813, name:Convolution_813, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:815, type:Add
+id:815, name:Add_815, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:816, type:Relu
+id:816, name:input.1156, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:818, type:DepthwiseConv2dNative
+id:818, name:Conv_472, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;3,3,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:819, type:Convolution
+id:819, name:Convolution_819, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:821, type:Add
+id:821, name:Add_821, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:823, type:Add
+id:822, name:onnx::Add_1397, type:AvgPool, identifier:AvgPool1,96,14,14;1,96,14,14floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:823, type:Add
+id:823, name:onnx::Concat_1398, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:839, type:Concat
+id:824, name:input.1168, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:826, type:DepthwiseConv2dNative
+id:826, name:Conv_477, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;3,3,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:827, type:Convolution
+id:827, name:Convolution_827, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:829, type:Add
+id:829, name:Add_829, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:830, type:Relu
+id:830, name:input.1184, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:832, type:DepthwiseConv2dNative
+id:832, name:Conv_480, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;3,3,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:833, type:Convolution
+id:833, name:Convolution_833, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:835, type:Add
+id:835, name:Add_835, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:836, type:Add
+id:836, name:onnx::Concat_1407, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:839, type:Concat
+id:837, name:onnx::Add_1408, type:AvgPool, identifier:AvgPool1,96,14,14;1,96,14,14floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:838, type:Add
+id:838, name:onnx::Concat_1409, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:839, type:Concat
+id:839, name:input.1196, type:Concat, identifier:Concat1,96,14,14;1,96,14,14;1,96,14,14;1,288,14,14floatfloatfloatfloat
+	output nodes id:844, type:Relu
+	output nodes id:906, type:Relu
+id:840, name:input.1200, type:Relu, identifier:Relu1,288,14,14;1,288,14,14floatfloat
+	output nodes id:841, type:Convolution
+id:841, name:Convolution_841, type:Convolution, identifier:Convolution1,288,14,14;96,288,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:843, type:Add
+id:843, name:Add_843, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:848, type:AvgPool
+	output nodes id:851, type:Relu
+	output nodes id:876, type:Relu
+	output nodes id:904, type:Add
+id:844, name:input.1212, type:Relu, identifier:Relu1,288,14,14;1,288,14,14floatfloat
+	output nodes id:845, type:Convolution
+id:845, name:Convolution_845, type:Convolution, identifier:Convolution1,288,14,14;96,288,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:847, type:Add
+id:847, name:Add_847, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:849, type:MaxPool
+	output nodes id:890, type:Relu
+	output nodes id:902, type:Add
+	output nodes id:903, type:AvgPool
+id:848, name:onnx::Add_1417, type:AvgPool, identifier:AvgPool1,96,14,14;1,96,14,14floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:850, type:Add
+id:849, name:onnx::Add_1418, type:MaxPool, identifier:MaxPool1,96,14,14;1,96,14,14floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:850, type:Add
+id:850, name:input.1224, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:863, type:Relu
+id:851, name:input.1228, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:853, type:DepthwiseConv2dNative
+id:853, name:Conv_494, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;3,3,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:854, type:Convolution
+id:854, name:Convolution_854, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:856, type:Add
+id:856, name:Add_856, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:857, type:Relu
+id:857, name:input.1244, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:859, type:DepthwiseConv2dNative
+id:859, name:Conv_497, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;3,3,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:860, type:Convolution
+id:860, name:Convolution_860, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:862, type:Add
+id:862, name:Add_862, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:875, type:Add
+id:863, name:input.1256, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:865, type:DepthwiseConv2dNative
+id:865, name:Conv_500, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;5,5,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{2, 2}
+	output nodes id:866, type:Convolution
+id:866, name:Convolution_866, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:868, type:Add
+id:868, name:Add_868, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:869, type:Relu
+id:869, name:input.1272, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:871, type:DepthwiseConv2dNative
+id:871, name:Conv_503, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;5,5,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{2, 2}
+	output nodes id:872, type:Convolution
+id:872, name:Convolution_872, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:874, type:Add
+id:874, name:Add_874, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:875, type:Add
+id:875, name:onnx::AveragePool_1436, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:888, type:AvgPool
+id:876, name:input.1284, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:878, type:DepthwiseConv2dNative
+id:878, name:Conv_507, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;3,3,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:879, type:Convolution
+id:879, name:Convolution_879, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:881, type:Add
+id:881, name:Add_881, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:882, type:Relu
+id:882, name:input.1300, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:884, type:DepthwiseConv2dNative
+id:884, name:Conv_510, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;3,3,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:885, type:Convolution
+id:885, name:Convolution_885, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:887, type:Add
+id:887, name:Add_887, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:889, type:Add
+id:888, name:onnx::Add_1445, type:AvgPool, identifier:AvgPool1,96,14,14;1,96,14,14floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:889, type:Add
+id:889, name:onnx::Concat_1446, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:905, type:Concat
+id:890, name:input.1312, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:892, type:DepthwiseConv2dNative
+id:892, name:Conv_515, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;3,3,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:893, type:Convolution
+id:893, name:Convolution_893, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:895, type:Add
+id:895, name:Add_895, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:896, type:Relu
+id:896, name:input.1328, type:Relu, identifier:Relu1,96,14,14;1,96,14,14floatfloat
+	output nodes id:898, type:DepthwiseConv2dNative
+id:898, name:Conv_518, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,96,14,14;3,3,96,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:899, type:Convolution
+id:899, name:Convolution_899, type:Convolution, identifier:Convolution1,96,14,14;96,96,1,1;1,96,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:901, type:Add
+id:901, name:Add_901, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:902, type:Add
+id:902, name:onnx::Concat_1455, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:905, type:Concat
+id:903, name:onnx::Add_1456, type:AvgPool, identifier:AvgPool1,96,14,14;1,96,14,14floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:904, type:Add
+id:904, name:onnx::Concat_1457, type:Add, identifier:Add1,96,14,14;1,96,14,14;1,96,14,14floatfloatfloat
+	output nodes id:905, type:Concat
+id:905, name:input.1340, type:Concat, identifier:Concat1,96,14,14;1,96,14,14;1,96,14,14;1,288,14,14floatfloatfloatfloat
+	output nodes id:910, type:Relu
+	output nodes id:978, type:Relu
+id:906, name:input.1344, type:Relu, identifier:Relu1,288,14,14;1,288,14,14floatfloat
+	output nodes id:907, type:Convolution
+id:907, name:Convolution_907, type:Convolution, identifier:Convolution1,288,14,14;192,288,1,1;1,192,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:909, type:Add
+id:909, name:Add_909, type:Add, identifier:Add1,192,14,14;1,192,14,14;1,192,14,14floatfloatfloat
+	output nodes id:956, type:MaxPool
+	output nodes id:959, type:Relu
+	output nodes id:914, type:AvgPool
+	output nodes id:928, type:MaxPool
+	output nodes id:942, type:Relu
+id:910, name:input.1356, type:Relu, identifier:Relu1,288,14,14;1,288,14,14floatfloat
+	output nodes id:911, type:Convolution
+id:911, name:Convolution_911, type:Convolution, identifier:Convolution1,288,14,14;192,288,1,1;1,192,14,14floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:913, type:Add
+id:913, name:Add_913, type:Add, identifier:Add1,192,14,14;1,192,14,14;1,192,14,14floatfloatfloat
+	output nodes id:957, type:MaxPool
+	output nodes id:915, type:Relu
+	output nodes id:954, type:AvgPool
+id:914, name:onnx::Add_1465, type:AvgPool, identifier:AvgPool1,192,14,14;1,192,7,7floatfloatShape{3, 3}Strides{2, 2}Shape{1, 1}Shape{1, 1}
+	output nodes id:927, type:Add
+id:915, name:input.1368, type:Relu, identifier:Relu1,192,14,14;1,192,14,14floatfloat
+	output nodes id:917, type:DepthwiseConv2dNative
+id:917, name:Conv_530, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,14,14;3,3,192,1;1,192,7,7floatfloatfloatStrides{2, 2}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:918, type:Convolution
+id:918, name:Convolution_918, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:920, type:Add
+id:920, name:Add_920, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:921, type:Relu
+id:921, name:input.1384, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:923, type:DepthwiseConv2dNative
+id:923, name:Conv_533, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;3,3,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:924, type:Convolution
+id:924, name:Convolution_924, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:926, type:Add
+id:926, name:Add_926, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:927, type:Add
+id:927, name:input.1396, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:929, type:Relu
+id:928, name:onnx::Add_1475, type:MaxPool, identifier:MaxPool1,192,14,14;1,192,7,7floatfloatShape{3, 3}Strides{2, 2}Shape{1, 1}Shape{1, 1}
+	output nodes id:941, type:Add
+id:929, name:input.1400, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:931, type:DepthwiseConv2dNative
+id:931, name:Conv_538, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;7,7,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{3, 3}
+	output nodes id:932, type:Convolution
+id:932, name:Convolution_932, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:934, type:Add
+id:934, name:Add_934, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:935, type:Relu
+id:935, name:input.1416, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:937, type:DepthwiseConv2dNative
+id:937, name:Conv_541, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;7,7,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{3, 3}
+	output nodes id:938, type:Convolution
+id:938, name:Convolution_938, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:940, type:Add
+id:940, name:Add_940, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:941, type:Add
+id:941, name:onnx::Concat_1484, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:977, type:Concat
+id:942, name:input.1428, type:Relu, identifier:Relu1,192,14,14;1,192,14,14floatfloat
+	output nodes id:944, type:DepthwiseConv2dNative
+id:944, name:Conv_545, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,14,14;7,7,192,1;1,192,7,7floatfloatfloatStrides{2, 2}Strides{1, 1}CoordinateDiff{3, 3}
+	output nodes id:945, type:Convolution
+id:945, name:Convolution_945, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:947, type:Add
+id:947, name:Add_947, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:948, type:Relu
+id:948, name:input.1444, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:950, type:DepthwiseConv2dNative
+id:950, name:Conv_548, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;7,7,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{3, 3}
+	output nodes id:951, type:Convolution
+id:951, name:Convolution_951, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:953, type:Add
+id:953, name:Add_953, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:955, type:Add
+id:954, name:onnx::Add_1493, type:AvgPool, identifier:AvgPool1,192,14,14;1,192,7,7floatfloatShape{3, 3}Strides{2, 2}Shape{1, 1}Shape{1, 1}
+	output nodes id:955, type:Add
+id:955, name:onnx::Concat_1494, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:977, type:Concat
+id:956, name:onnx::Add_1495, type:MaxPool, identifier:MaxPool1,192,14,14;1,192,7,7floatfloatShape{3, 3}Strides{2, 2}Shape{1, 1}Shape{1, 1}
+	output nodes id:958, type:Add
+id:957, name:onnx::Add_1496, type:MaxPool, identifier:MaxPool1,192,14,14;1,192,7,7floatfloatShape{3, 3}Strides{2, 2}Shape{1, 1}Shape{1, 1}
+	output nodes id:958, type:Add
+id:958, name:input.1456, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:964, type:Relu
+id:959, name:input.1460, type:Relu, identifier:Relu1,192,14,14;1,192,14,14floatfloat
+	output nodes id:960, type:Convolution
+id:960, name:Convolution_960, type:Convolution, identifier:Convolution1,192,14,14;192,192,1,7;1,192,14,7floatfloatfloatStrides{1, 2}Strides{1, 1}CoordinateDiff{0, 3}
+	output nodes id:961, type:Convolution
+id:961, name:Convolution_961, type:Convolution, identifier:Convolution1,192,14,7;192,192,7,1;1,192,7,7floatfloatfloatStrides{2, 1}Strides{1, 1}CoordinateDiff{3, 0}
+	output nodes id:963, type:Add
+id:963, name:Add_963, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:976, type:Add
+id:964, name:input.1472, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:966, type:DepthwiseConv2dNative
+id:966, name:Conv_559, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;3,3,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:967, type:Convolution
+id:967, name:Convolution_967, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:969, type:Add
+id:969, name:Add_969, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:970, type:Relu
+id:970, name:input.1488, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:972, type:DepthwiseConv2dNative
+id:972, name:Conv_562, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;3,3,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:973, type:Convolution
+id:973, name:Convolution_973, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:975, type:Add
+id:975, name:Add_975, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:976, type:Add
+id:976, name:onnx::Concat_1510, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:977, type:Concat
+id:977, name:input.1500, type:Concat, identifier:Concat1,192,7,7;1,192,7,7;1,192,7,7;1,576,7,7floatfloatfloatfloat
+	output nodes id:993, type:Relu
+	output nodes id:1055, type:Relu
+id:978, name:input.1504, type:Relu, identifier:Relu1,288,14,14;1,288,14,14floatfloat
+	output nodes id:979, type:Convolution
+	output nodes id:984, type:Slice
+id:979, name:Convolution_979, type:Convolution, identifier:Convolution1,288,14,14;96,288,1,1;1,96,7,7floatfloatfloatStrides{2, 2}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:991, type:Concat
+id:980, name:onnx::Slice_1514, type:Constant, identifier:Constant;1int64_t
+id:981, name:onnx::Slice_1515, type:Constant, identifier:Constant;1int64_t
+id:982, name:onnx::Slice_1516, type:Constant, identifier:Constant;1int64_t
+id:983, name:onnx::Slice_1517, type:Constant, identifier:Constant;1int64_t
+id:984, name:onnx::Slice_1518, type:Slice, identifier:Slice1,288,14,14;1,288,13,14floatfloat
+	output nodes id:989, type:Slice
+id:985, name:onnx::Slice_1519, type:Constant, identifier:Constant;1int64_t
+id:986, name:onnx::Slice_1520, type:Constant, identifier:Constant;1int64_t
+id:987, name:onnx::Slice_1521, type:Constant, identifier:Constant;1int64_t
+id:988, name:onnx::Slice_1522, type:Constant, identifier:Constant;1int64_t
+id:989, name:input.1508, type:Slice, identifier:Slice1,288,13,14;1,288,13,13floatfloat
+	output nodes id:990, type:Convolution
+id:990, name:Convolution_990, type:Convolution, identifier:Convolution1,288,13,13;96,288,1,1;1,96,7,7floatfloatfloatStrides{2, 2}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:991, type:Concat
+id:991, name:input.1512, type:Concat, identifier:Concat1,96,7,7;1,96,7,7;1,192,7,7floatfloatfloat
+	output nodes id:992, type:BatchNormInference
+id:992, name:input.1516, type:BatchNormInference, identifier:BatchNormInference192;192;1,192,7,7;192;192;1,192,7,7floatfloatfloatfloatfloatfloat
+	output nodes id:1025, type:Relu
+	output nodes id:997, type:AvgPool
+	output nodes id:1000, type:Relu
+	output nodes id:1053, type:Add
+id:993, name:input.1520, type:Relu, identifier:Relu1,576,7,7;1,576,7,7floatfloat
+	output nodes id:994, type:Convolution
+id:994, name:Convolution_994, type:Convolution, identifier:Convolution1,576,7,7;192,576,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:996, type:Add
+id:996, name:Add_996, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:998, type:MaxPool
+	output nodes id:1039, type:Relu
+	output nodes id:1051, type:Add
+	output nodes id:1052, type:AvgPool
+id:997, name:onnx::Add_1530, type:AvgPool, identifier:AvgPool1,192,7,7;1,192,7,7floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:999, type:Add
+id:998, name:onnx::Add_1531, type:MaxPool, identifier:MaxPool1,192,7,7;1,192,7,7floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:999, type:Add
+id:999, name:input.1532, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1012, type:Relu
+id:1000, name:input.1536, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:1002, type:DepthwiseConv2dNative
+id:1002, name:Conv_587, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;3,3,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:1003, type:Convolution
+id:1003, name:Convolution_1003, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1005, type:Add
+id:1005, name:Add_1005, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1006, type:Relu
+id:1006, name:input.1552, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:1008, type:DepthwiseConv2dNative
+id:1008, name:Conv_590, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;3,3,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:1009, type:Convolution
+id:1009, name:Convolution_1009, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1011, type:Add
+id:1011, name:Add_1011, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1024, type:Add
+id:1012, name:input.1564, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:1014, type:DepthwiseConv2dNative
+id:1014, name:Conv_593, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;5,5,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{2, 2}
+	output nodes id:1015, type:Convolution
+id:1015, name:Convolution_1015, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1017, type:Add
+id:1017, name:Add_1017, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1018, type:Relu
+id:1018, name:input.1580, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:1020, type:DepthwiseConv2dNative
+id:1020, name:Conv_596, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;5,5,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{2, 2}
+	output nodes id:1021, type:Convolution
+id:1021, name:Convolution_1021, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1023, type:Add
+id:1023, name:Add_1023, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1024, type:Add
+id:1024, name:onnx::AveragePool_1549, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1037, type:AvgPool
+id:1025, name:input.1592, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:1027, type:DepthwiseConv2dNative
+id:1027, name:Conv_600, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;3,3,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:1028, type:Convolution
+id:1028, name:Convolution_1028, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1030, type:Add
+id:1030, name:Add_1030, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1031, type:Relu
+id:1031, name:input.1608, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:1033, type:DepthwiseConv2dNative
+id:1033, name:Conv_603, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;3,3,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:1034, type:Convolution
+id:1034, name:Convolution_1034, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1036, type:Add
+id:1036, name:Add_1036, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1038, type:Add
+id:1037, name:onnx::Add_1558, type:AvgPool, identifier:AvgPool1,192,7,7;1,192,7,7floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:1038, type:Add
+id:1038, name:onnx::Concat_1559, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1054, type:Concat
+id:1039, name:input.1620, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:1041, type:DepthwiseConv2dNative
+id:1041, name:Conv_608, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;3,3,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:1042, type:Convolution
+id:1042, name:Convolution_1042, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1044, type:Add
+id:1044, name:Add_1044, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1045, type:Relu
+id:1045, name:input.1636, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:1047, type:DepthwiseConv2dNative
+id:1047, name:Conv_611, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;3,3,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:1048, type:Convolution
+id:1048, name:Convolution_1048, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1050, type:Add
+id:1050, name:Add_1050, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1051, type:Add
+id:1051, name:onnx::Concat_1568, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1054, type:Concat
+id:1052, name:onnx::Add_1569, type:AvgPool, identifier:AvgPool1,192,7,7;1,192,7,7floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:1053, type:Add
+id:1053, name:onnx::Concat_1570, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1054, type:Concat
+id:1054, name:input.1648, type:Concat, identifier:Concat1,192,7,7;1,192,7,7;1,192,7,7;1,576,7,7floatfloatfloatfloat
+	output nodes id:1059, type:Relu
+	output nodes id:1121, type:Relu
+id:1055, name:input.1652, type:Relu, identifier:Relu1,576,7,7;1,576,7,7floatfloat
+	output nodes id:1056, type:Convolution
+id:1056, name:Convolution_1056, type:Convolution, identifier:Convolution1,576,7,7;192,576,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1058, type:Add
+id:1058, name:Add_1058, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1063, type:AvgPool
+	output nodes id:1066, type:Relu
+	output nodes id:1091, type:Relu
+	output nodes id:1119, type:Add
+id:1059, name:input.1664, type:Relu, identifier:Relu1,576,7,7;1,576,7,7floatfloat
+	output nodes id:1060, type:Convolution
+id:1060, name:Convolution_1060, type:Convolution, identifier:Convolution1,576,7,7;192,576,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1062, type:Add
+id:1062, name:Add_1062, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1064, type:MaxPool
+	output nodes id:1105, type:Relu
+	output nodes id:1117, type:Add
+	output nodes id:1118, type:AvgPool
+id:1063, name:onnx::Add_1578, type:AvgPool, identifier:AvgPool1,192,7,7;1,192,7,7floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:1065, type:Add
+id:1064, name:onnx::Add_1579, type:MaxPool, identifier:MaxPool1,192,7,7;1,192,7,7floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:1065, type:Add
+id:1065, name:input.1676, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1078, type:Relu
+id:1066, name:input.1680, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:1068, type:DepthwiseConv2dNative
+id:1068, name:Conv_625, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;3,3,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:1069, type:Convolution
+id:1069, name:Convolution_1069, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1071, type:Add
+id:1071, name:Add_1071, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1072, type:Relu
+id:1072, name:input.1696, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:1074, type:DepthwiseConv2dNative
+id:1074, name:Conv_628, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;3,3,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:1075, type:Convolution
+id:1075, name:Convolution_1075, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1077, type:Add
+id:1077, name:Add_1077, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1090, type:Add
+id:1078, name:input.1708, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:1080, type:DepthwiseConv2dNative
+id:1080, name:Conv_631, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;5,5,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{2, 2}
+	output nodes id:1081, type:Convolution
+id:1081, name:Convolution_1081, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1083, type:Add
+id:1083, name:Add_1083, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1084, type:Relu
+id:1084, name:input.1724, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:1086, type:DepthwiseConv2dNative
+id:1086, name:Conv_634, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;5,5,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{2, 2}
+	output nodes id:1087, type:Convolution
+id:1087, name:Convolution_1087, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1089, type:Add
+id:1089, name:Add_1089, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1090, type:Add
+id:1090, name:onnx::AveragePool_1597, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1103, type:AvgPool
+id:1091, name:input.1736, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:1093, type:DepthwiseConv2dNative
+id:1093, name:Conv_638, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;3,3,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:1094, type:Convolution
+id:1094, name:Convolution_1094, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1096, type:Add
+id:1096, name:Add_1096, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1097, type:Relu
+id:1097, name:input.1752, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:1099, type:DepthwiseConv2dNative
+id:1099, name:Conv_641, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;3,3,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:1100, type:Convolution
+id:1100, name:Convolution_1100, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1102, type:Add
+id:1102, name:Add_1102, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1104, type:Add
+id:1103, name:onnx::Add_1606, type:AvgPool, identifier:AvgPool1,192,7,7;1,192,7,7floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:1104, type:Add
+id:1104, name:onnx::Concat_1607, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1120, type:Concat
+id:1105, name:input.1764, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:1107, type:DepthwiseConv2dNative
+id:1107, name:Conv_646, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;3,3,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:1108, type:Convolution
+id:1108, name:Convolution_1108, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1110, type:Add
+id:1110, name:Add_1110, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1111, type:Relu
+id:1111, name:input.1780, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:1113, type:DepthwiseConv2dNative
+id:1113, name:Conv_649, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;3,3,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:1114, type:Convolution
+id:1114, name:Convolution_1114, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1116, type:Add
+id:1116, name:Add_1116, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1117, type:Add
+id:1117, name:onnx::Concat_1616, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1120, type:Concat
+id:1118, name:onnx::Add_1617, type:AvgPool, identifier:AvgPool1,192,7,7;1,192,7,7floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:1119, type:Add
+id:1119, name:onnx::Concat_1618, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1120, type:Concat
+id:1120, name:input.1792, type:Concat, identifier:Concat1,192,7,7;1,192,7,7;1,192,7,7;1,576,7,7floatfloatfloatfloat
+	output nodes id:1125, type:Relu
+	output nodes id:1187, type:Relu
+id:1121, name:input.1796, type:Relu, identifier:Relu1,576,7,7;1,576,7,7floatfloat
+	output nodes id:1122, type:Convolution
+id:1122, name:Convolution_1122, type:Convolution, identifier:Convolution1,576,7,7;192,576,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1124, type:Add
+id:1124, name:Add_1124, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1129, type:AvgPool
+	output nodes id:1132, type:Relu
+	output nodes id:1157, type:Relu
+	output nodes id:1185, type:Add
+id:1125, name:input.1808, type:Relu, identifier:Relu1,576,7,7;1,576,7,7floatfloat
+	output nodes id:1126, type:Convolution
+id:1126, name:Convolution_1126, type:Convolution, identifier:Convolution1,576,7,7;192,576,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1128, type:Add
+id:1128, name:Add_1128, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1130, type:MaxPool
+	output nodes id:1171, type:Relu
+	output nodes id:1183, type:Add
+	output nodes id:1184, type:AvgPool
+id:1129, name:onnx::Add_1626, type:AvgPool, identifier:AvgPool1,192,7,7;1,192,7,7floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:1131, type:Add
+id:1130, name:onnx::Add_1627, type:MaxPool, identifier:MaxPool1,192,7,7;1,192,7,7floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:1131, type:Add
+id:1131, name:input.1820, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1144, type:Relu
+id:1132, name:input.1824, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:1134, type:DepthwiseConv2dNative
+id:1134, name:Conv_663, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;3,3,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:1135, type:Convolution
+id:1135, name:Convolution_1135, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1137, type:Add
+id:1137, name:Add_1137, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1138, type:Relu
+id:1138, name:input.1840, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:1140, type:DepthwiseConv2dNative
+id:1140, name:Conv_666, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;3,3,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:1141, type:Convolution
+id:1141, name:Convolution_1141, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1143, type:Add
+id:1143, name:Add_1143, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1156, type:Add
+id:1144, name:input.1852, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:1146, type:DepthwiseConv2dNative
+id:1146, name:Conv_669, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;5,5,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{2, 2}
+	output nodes id:1147, type:Convolution
+id:1147, name:Convolution_1147, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1149, type:Add
+id:1149, name:Add_1149, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1150, type:Relu
+id:1150, name:input.1868, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:1152, type:DepthwiseConv2dNative
+id:1152, name:Conv_672, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;5,5,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{2, 2}
+	output nodes id:1153, type:Convolution
+id:1153, name:Convolution_1153, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1155, type:Add
+id:1155, name:Add_1155, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1156, type:Add
+id:1156, name:onnx::AveragePool_1645, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1169, type:AvgPool
+id:1157, name:input.1880, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:1159, type:DepthwiseConv2dNative
+id:1159, name:Conv_676, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;3,3,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:1160, type:Convolution
+id:1160, name:Convolution_1160, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1162, type:Add
+id:1162, name:Add_1162, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1163, type:Relu
+id:1163, name:input.1896, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:1165, type:DepthwiseConv2dNative
+id:1165, name:Conv_679, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;3,3,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:1166, type:Convolution
+id:1166, name:Convolution_1166, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1168, type:Add
+id:1168, name:Add_1168, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1170, type:Add
+id:1169, name:onnx::Add_1654, type:AvgPool, identifier:AvgPool1,192,7,7;1,192,7,7floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:1170, type:Add
+id:1170, name:onnx::Concat_1655, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1186, type:Concat
+id:1171, name:input.1908, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:1173, type:DepthwiseConv2dNative
+id:1173, name:Conv_684, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;3,3,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:1174, type:Convolution
+id:1174, name:Convolution_1174, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1176, type:Add
+id:1176, name:Add_1176, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1177, type:Relu
+id:1177, name:input.1924, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:1179, type:DepthwiseConv2dNative
+id:1179, name:Conv_687, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;3,3,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:1180, type:Convolution
+id:1180, name:Convolution_1180, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1182, type:Add
+id:1182, name:Add_1182, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1183, type:Add
+id:1183, name:onnx::Concat_1664, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1186, type:Concat
+id:1184, name:onnx::Add_1665, type:AvgPool, identifier:AvgPool1,192,7,7;1,192,7,7floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:1185, type:Add
+id:1185, name:onnx::Concat_1666, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1186, type:Concat
+id:1186, name:input.1936, type:Concat, identifier:Concat1,192,7,7;1,192,7,7;1,192,7,7;1,576,7,7floatfloatfloatfloat
+	output nodes id:1191, type:Relu
+id:1187, name:input.1940, type:Relu, identifier:Relu1,576,7,7;1,576,7,7floatfloat
+	output nodes id:1188, type:Convolution
+id:1188, name:Convolution_1188, type:Convolution, identifier:Convolution1,576,7,7;192,576,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1190, type:Add
+id:1190, name:Add_1190, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1195, type:AvgPool
+	output nodes id:1198, type:Relu
+	output nodes id:1223, type:Relu
+	output nodes id:1251, type:Add
+id:1191, name:input.1952, type:Relu, identifier:Relu1,576,7,7;1,576,7,7floatfloat
+	output nodes id:1192, type:Convolution
+id:1192, name:Convolution_1192, type:Convolution, identifier:Convolution1,576,7,7;192,576,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1194, type:Add
+id:1194, name:Add_1194, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1196, type:MaxPool
+	output nodes id:1237, type:Relu
+	output nodes id:1249, type:Add
+	output nodes id:1250, type:AvgPool
+id:1195, name:onnx::Add_1674, type:AvgPool, identifier:AvgPool1,192,7,7;1,192,7,7floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:1197, type:Add
+id:1196, name:onnx::Add_1675, type:MaxPool, identifier:MaxPool1,192,7,7;1,192,7,7floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:1197, type:Add
+id:1197, name:input.1964, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1210, type:Relu
+id:1198, name:input.1968, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:1200, type:DepthwiseConv2dNative
+id:1200, name:Conv_701, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;3,3,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:1201, type:Convolution
+id:1201, name:Convolution_1201, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1203, type:Add
+id:1203, name:Add_1203, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1204, type:Relu
+id:1204, name:input.1984, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:1206, type:DepthwiseConv2dNative
+id:1206, name:Conv_704, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;3,3,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:1207, type:Convolution
+id:1207, name:Convolution_1207, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1209, type:Add
+id:1209, name:Add_1209, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1222, type:Add
+id:1210, name:input.1996, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:1212, type:DepthwiseConv2dNative
+id:1212, name:Conv_707, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;5,5,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{2, 2}
+	output nodes id:1213, type:Convolution
+id:1213, name:Convolution_1213, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1215, type:Add
+id:1215, name:Add_1215, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1216, type:Relu
+id:1216, name:input.2012, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:1218, type:DepthwiseConv2dNative
+id:1218, name:Conv_710, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;5,5,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{2, 2}
+	output nodes id:1219, type:Convolution
+id:1219, name:Convolution_1219, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1221, type:Add
+id:1221, name:Add_1221, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1222, type:Add
+id:1222, name:onnx::AveragePool_1693, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1235, type:AvgPool
+id:1223, name:input.2024, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:1225, type:DepthwiseConv2dNative
+id:1225, name:Conv_714, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;3,3,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:1226, type:Convolution
+id:1226, name:Convolution_1226, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1228, type:Add
+id:1228, name:Add_1228, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1229, type:Relu
+id:1229, name:input.2040, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:1231, type:DepthwiseConv2dNative
+id:1231, name:Conv_717, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;3,3,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:1232, type:Convolution
+id:1232, name:Convolution_1232, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1234, type:Add
+id:1234, name:Add_1234, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1236, type:Add
+id:1235, name:onnx::Add_1702, type:AvgPool, identifier:AvgPool1,192,7,7;1,192,7,7floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:1236, type:Add
+id:1236, name:onnx::Concat_1703, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1252, type:Concat
+id:1237, name:input.2052, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:1239, type:DepthwiseConv2dNative
+id:1239, name:Conv_722, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;3,3,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:1240, type:Convolution
+id:1240, name:Convolution_1240, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1242, type:Add
+id:1242, name:Add_1242, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1243, type:Relu
+id:1243, name:input.2068, type:Relu, identifier:Relu1,192,7,7;1,192,7,7floatfloat
+	output nodes id:1245, type:DepthwiseConv2dNative
+id:1245, name:Conv_725, type:DepthwiseConv2dNative, identifier:DepthwiseConv2dNative1,192,7,7;3,3,192,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{1, 1}
+	output nodes id:1246, type:Convolution
+id:1246, name:Convolution_1246, type:Convolution, identifier:Convolution1,192,7,7;192,192,1,1;1,192,7,7floatfloatfloatStrides{1, 1}Strides{1, 1}CoordinateDiff{0, 0}
+	output nodes id:1248, type:Add
+id:1248, name:Add_1248, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1249, type:Add
+id:1249, name:onnx::Concat_1712, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1252, type:Concat
+id:1250, name:onnx::Add_1713, type:AvgPool, identifier:AvgPool1,192,7,7;1,192,7,7floatfloatShape{3, 3}Strides{1, 1}Shape{1, 1}Shape{1, 1}
+	output nodes id:1251, type:Add
+id:1251, name:onnx::Concat_1714, type:Add, identifier:Add1,192,7,7;1,192,7,7;1,192,7,7floatfloatfloat
+	output nodes id:1252, type:Concat
+id:1252, name:onnx::Pad_1715, type:Concat, identifier:Concat1,192,7,7;1,192,7,7;1,192,7,7;1,576,7,7floatfloatfloatfloat
+	output nodes id:1255, type:Pad
+id:1253, name:onnx::Pad_1716, type:Constant, identifier:Constant;8int64_t
+id:1254, name:Constant_1254, type:Constant, identifier:Constant;float
+	output nodes id:1255, type:Pad
+id:1255, name:onnx::AveragePool_1717, type:Pad, identifier:Pad1,576,7,7;;1,576,7,7floatfloatfloat
+	output nodes id:1256, type:AvgPool
+id:1256, name:onnx::Reshape_1718, type:AvgPool, identifier:AvgPool1,576,7,7;1,576,1,1floatfloatShape{7, 7}Strides{7, 7}Shape{0, 0}Shape{0, 0}
+	output nodes id:1257, type:Reshape
+id:1257, name:onnx::Gemm_1724, type:Reshape, identifier:Reshape1,576,1,1;1,576floatfloat
+	output nodes id:1258, type:Dot
+id:1258, name:Dot_1258, type:Dot, identifier:Dot1,576;1000,576;1,1000floatfloatfloat
+	output nodes id:1260, type:Add
+id:1260, name:Add_1260, type:Add, identifier:Add1,1000;1,1000;1,1000floatfloatfloat
+	output nodes id:1261, type:Result
+id:1261, name:Result_1261, type:Result, identifier:Result1,1000;1,1000floatfloat
+id:1262, name:Constant_1262, type:Constant, identifier:Constant;1,48,56,56float
+	output nodes id:279, type:Add
+id:1263, name:Constant_1263, type:Constant, identifier:Constant;1,24,112,112float
+	output nodes id:275, type:Add
+id:1264, name:Constant_1264, type:Constant, identifier:Constant;3,3,48,1float
+	output nodes id:308, type:DepthwiseConv2dNative
+id:1265, name:Constant_1265, type:Constant, identifier:Constant;3,3,48,1float
+	output nodes id:314, type:DepthwiseConv2dNative
+id:1266, name:Constant_1266, type:Constant, identifier:Constant;5,5,48,1float
+	output nodes id:320, type:DepthwiseConv2dNative
+id:1267, name:Constant_1267, type:Constant, identifier:Constant;5,5,48,1float
+	output nodes id:326, type:DepthwiseConv2dNative
+id:1268, name:Constant_1268, type:Constant, identifier:Constant;3,3,48,1float
+	output nodes id:333, type:DepthwiseConv2dNative
+id:1269, name:Constant_1269, type:Constant, identifier:Constant;3,3,48,1float
+	output nodes id:339, type:DepthwiseConv2dNative
+id:1270, name:Constant_1270, type:Constant, identifier:Constant;3,3,48,1float
+	output nodes id:347, type:DepthwiseConv2dNative
+id:1271, name:Constant_1271, type:Constant, identifier:Constant;3,3,48,1float
+	output nodes id:353, type:DepthwiseConv2dNative
+id:1272, name:Constant_1272, type:Constant, identifier:Constant;5,5,48,1float
+	output nodes id:452, type:DepthwiseConv2dNative
+id:1273, name:Constant_1273, type:Constant, identifier:Constant;3,3,48,1float
+	output nodes id:374, type:DepthwiseConv2dNative
+id:1274, name:Constant_1274, type:Constant, identifier:Constant;3,3,48,1float
+	output nodes id:380, type:DepthwiseConv2dNative
+id:1275, name:Constant_1275, type:Constant, identifier:Constant;5,5,48,1float
+	output nodes id:386, type:DepthwiseConv2dNative
+id:1276, name:Constant_1276, type:Constant, identifier:Constant;5,5,48,1float
+	output nodes id:392, type:DepthwiseConv2dNative
+id:1277, name:Constant_1277, type:Constant, identifier:Constant;3,3,48,1float
+	output nodes id:399, type:DepthwiseConv2dNative
+id:1278, name:Constant_1278, type:Constant, identifier:Constant;3,3,48,1float
+	output nodes id:405, type:DepthwiseConv2dNative
+id:1279, name:Constant_1279, type:Constant, identifier:Constant;3,3,48,1float
+	output nodes id:413, type:DepthwiseConv2dNative
+id:1280, name:Constant_1280, type:Constant, identifier:Constant;3,3,48,1float
+	output nodes id:419, type:DepthwiseConv2dNative
+id:1281, name:Constant_1281, type:Constant, identifier:Constant;3,3,48,1float
+	output nodes id:440, type:DepthwiseConv2dNative
+id:1282, name:Constant_1282, type:Constant, identifier:Constant;3,3,48,1float
+	output nodes id:446, type:DepthwiseConv2dNative
+id:1283, name:Constant_1283, type:Constant, identifier:Constant;3,3,96,1float
+	output nodes id:619, type:DepthwiseConv2dNative
+id:1284, name:Constant_1284, type:Constant, identifier:Constant;5,5,48,1float
+	output nodes id:458, type:DepthwiseConv2dNative
+id:1285, name:Constant_1285, type:Constant, identifier:Constant;3,3,48,1float
+	output nodes id:465, type:DepthwiseConv2dNative
+id:1286, name:Constant_1286, type:Constant, identifier:Constant;3,3,48,1float
+	output nodes id:471, type:DepthwiseConv2dNative
+id:1287, name:Constant_1287, type:Constant, identifier:Constant;3,3,48,1float
+	output nodes id:479, type:DepthwiseConv2dNative
+id:1288, name:Constant_1288, type:Constant, identifier:Constant;3,3,48,1float
+	output nodes id:485, type:DepthwiseConv2dNative
+id:1289, name:Constant_1289, type:Constant, identifier:Constant;1,48,28,28float
+	output nodes id:377, type:Add
+	output nodes id:449, type:Add
+	output nodes id:474, type:Add
+	output nodes id:368, type:Add
+	output nodes id:488, type:Add
+	output nodes id:416, type:Add
+	output nodes id:482, type:Add
+	output nodes id:455, type:Add
+	output nodes id:389, type:Add
+	output nodes id:402, type:Add
+	output nodes id:496, type:Add
+	output nodes id:383, type:Add
+	output nodes id:430, type:Add
+	output nodes id:329, type:Add
+	output nodes id:509, type:Add
+	output nodes id:443, type:Add
+	output nodes id:422, type:Add
+	output nodes id:336, type:Add
+	output nodes id:302, type:Add
+	output nodes id:408, type:Add
+	output nodes id:527, type:Add
+	output nodes id:323, type:Add
+	output nodes id:317, type:Add
+	output nodes id:311, type:Add
+	output nodes id:342, type:Add
+	output nodes id:283, type:Add
+	output nodes id:356, type:Add
+	output nodes id:350, type:Add
+	output nodes id:434, type:Add
+	output nodes id:548, type:Add
+	output nodes id:364, type:Add
+	output nodes id:534, type:Add
+	output nodes id:521, type:Add
+	output nodes id:515, type:Add
+	output nodes id:540, type:Add
+	output nodes id:500, type:Add
+	output nodes id:554, type:Add
+	output nodes id:395, type:Add
+	output nodes id:461, type:Add
+	output nodes id:468, type:Add
+id:1290, name:Constant_1290, type:Constant, identifier:Constant;3,3,48,1float
+	output nodes id:506, type:DepthwiseConv2dNative
+id:1291, name:Constant_1291, type:Constant, identifier:Constant;3,3,48,1float
+	output nodes id:512, type:DepthwiseConv2dNative
+id:1292, name:Constant_1292, type:Constant, identifier:Constant;3,3,192,1float
+	output nodes id:1027, type:DepthwiseConv2dNative
+id:1293, name:Constant_1293, type:Constant, identifier:Constant;5,5,48,1float
+	output nodes id:518, type:DepthwiseConv2dNative
+id:1294, name:Constant_1294, type:Constant, identifier:Constant;5,5,48,1float
+	output nodes id:524, type:DepthwiseConv2dNative
+id:1295, name:Constant_1295, type:Constant, identifier:Constant;3,3,48,1float
+	output nodes id:531, type:DepthwiseConv2dNative
+id:1296, name:Constant_1296, type:Constant, identifier:Constant;3,3,48,1float
+	output nodes id:537, type:DepthwiseConv2dNative
+id:1297, name:Constant_1297, type:Constant, identifier:Constant;3,3,48,1float
+	output nodes id:545, type:DepthwiseConv2dNative
+id:1298, name:Constant_1298, type:Constant, identifier:Constant;3,3,48,1float
+	output nodes id:551, type:DepthwiseConv2dNative
+id:1299, name:Constant_1299, type:Constant, identifier:Constant;1,96,28,28float
+	output nodes id:566, type:Add
+	output nodes id:562, type:Add
+id:1300, name:Constant_1300, type:Constant, identifier:Constant;3,3,96,1float
+	output nodes id:570, type:DepthwiseConv2dNative
+id:1301, name:Constant_1301, type:Constant, identifier:Constant;3,3,96,1float
+	output nodes id:576, type:DepthwiseConv2dNative
+id:1302, name:Constant_1302, type:Constant, identifier:Constant;7,7,96,1float
+	output nodes id:584, type:DepthwiseConv2dNative
+id:1303, name:Constant_1303, type:Constant, identifier:Constant;7,7,96,1float
+	output nodes id:590, type:DepthwiseConv2dNative
+id:1304, name:Constant_1304, type:Constant, identifier:Constant;7,7,96,1float
+	output nodes id:597, type:DepthwiseConv2dNative
+id:1305, name:Constant_1305, type:Constant, identifier:Constant;7,7,96,1float
+	output nodes id:603, type:DepthwiseConv2dNative
+id:1306, name:Constant_1306, type:Constant, identifier:Constant;3,3,96,1float
+	output nodes id:625, type:DepthwiseConv2dNative
+id:1307, name:Constant_1307, type:Constant, identifier:Constant;3,3,96,1float
+	output nodes id:655, type:DepthwiseConv2dNative
+id:1308, name:Constant_1308, type:Constant, identifier:Constant;3,3,96,1float
+	output nodes id:661, type:DepthwiseConv2dNative
+id:1309, name:Constant_1309, type:Constant, identifier:Constant;5,5,96,1float
+	output nodes id:667, type:DepthwiseConv2dNative
+id:1310, name:Constant_1310, type:Constant, identifier:Constant;5,5,96,1float
+	output nodes id:673, type:DepthwiseConv2dNative
+id:1311, name:Constant_1311, type:Constant, identifier:Constant;3,3,96,1float
+	output nodes id:680, type:DepthwiseConv2dNative
+id:1312, name:Constant_1312, type:Constant, identifier:Constant;3,3,96,1float
+	output nodes id:686, type:DepthwiseConv2dNative
+id:1313, name:Constant_1313, type:Constant, identifier:Constant;3,3,96,1float
+	output nodes id:694, type:DepthwiseConv2dNative
+id:1314, name:Constant_1314, type:Constant, identifier:Constant;3,3,96,1float
+	output nodes id:700, type:DepthwiseConv2dNative
+id:1315, name:Constant_1315, type:Constant, identifier:Constant;3,3,96,1float
+	output nodes id:721, type:DepthwiseConv2dNative
+id:1316, name:Constant_1316, type:Constant, identifier:Constant;3,3,96,1float
+	output nodes id:727, type:DepthwiseConv2dNative
+id:1317, name:Constant_1317, type:Constant, identifier:Constant;5,5,96,1float
+	output nodes id:733, type:DepthwiseConv2dNative
+id:1318, name:Constant_1318, type:Constant, identifier:Constant;5,5,96,1float
+	output nodes id:739, type:DepthwiseConv2dNative
+id:1319, name:Constant_1319, type:Constant, identifier:Constant;3,3,96,1float
+	output nodes id:746, type:DepthwiseConv2dNative
+id:1320, name:Constant_1320, type:Constant, identifier:Constant;3,3,96,1float
+	output nodes id:752, type:DepthwiseConv2dNative
+id:1321, name:Constant_1321, type:Constant, identifier:Constant;3,3,96,1float
+	output nodes id:760, type:DepthwiseConv2dNative
+id:1322, name:Constant_1322, type:Constant, identifier:Constant;3,3,96,1float
+	output nodes id:766, type:DepthwiseConv2dNative
+id:1323, name:Constant_1323, type:Constant, identifier:Constant;3,3,96,1float
+	output nodes id:787, type:DepthwiseConv2dNative
+id:1324, name:Constant_1324, type:Constant, identifier:Constant;3,3,96,1float
+	output nodes id:793, type:DepthwiseConv2dNative
+id:1325, name:Constant_1325, type:Constant, identifier:Constant;5,5,96,1float
+	output nodes id:799, type:DepthwiseConv2dNative
+id:1326, name:Constant_1326, type:Constant, identifier:Constant;5,5,96,1float
+	output nodes id:805, type:DepthwiseConv2dNative
+id:1327, name:Constant_1327, type:Constant, identifier:Constant;3,3,96,1float
+	output nodes id:812, type:DepthwiseConv2dNative
+id:1328, name:Constant_1328, type:Constant, identifier:Constant;3,3,96,1float
+	output nodes id:818, type:DepthwiseConv2dNative
+id:1329, name:Constant_1329, type:Constant, identifier:Constant;3,3,96,1float
+	output nodes id:826, type:DepthwiseConv2dNative
+id:1330, name:Constant_1330, type:Constant, identifier:Constant;3,3,96,1float
+	output nodes id:832, type:DepthwiseConv2dNative
+id:1331, name:Constant_1331, type:Constant, identifier:Constant;1,96,14,14float
+	output nodes id:815, type:Add
+	output nodes id:895, type:Add
+	output nodes id:874, type:Add
+	output nodes id:881, type:Add
+	output nodes id:868, type:Add
+	output nodes id:862, type:Add
+	output nodes id:856, type:Add
+	output nodes id:887, type:Add
+	output nodes id:847, type:Add
+	output nodes id:901, type:Add
+	output nodes id:829, type:Add
+	output nodes id:777, type:Add
+	output nodes id:781, type:Add
+	output nodes id:843, type:Add
+	output nodes id:802, type:Add
+	output nodes id:796, type:Add
+	output nodes id:790, type:Add
+	output nodes id:821, type:Add
+	output nodes id:715, type:Add
+	output nodes id:835, type:Add
+	output nodes id:763, type:Add
+	output nodes id:742, type:Add
+	output nodes id:749, type:Add
+	output nodes id:808, type:Add
+	output nodes id:689, type:Add
+	output nodes id:736, type:Add
+	output nodes id:676, type:Add
+	output nodes id:683, type:Add
+	output nodes id:711, type:Add
+	output nodes id:730, type:Add
+	output nodes id:670, type:Add
+	output nodes id:724, type:Add
+	output nodes id:606, type:Add
+	output nodes id:622, type:Add
+	output nodes id:658, type:Add
+	output nodes id:755, type:Add
+	output nodes id:697, type:Add
+	output nodes id:649, type:Add
+	output nodes id:769, type:Add
+	output nodes id:628, type:Add
+	output nodes id:600, type:Add
+	output nodes id:593, type:Add
+	output nodes id:587, type:Add
+	output nodes id:579, type:Add
+	output nodes id:573, type:Add
+	output nodes id:703, type:Add
+	output nodes id:616, type:Add
+	output nodes id:664, type:Add
+id:1332, name:Constant_1332, type:Constant, identifier:Constant;3,3,96,1float
+	output nodes id:853, type:DepthwiseConv2dNative
+id:1333, name:Constant_1333, type:Constant, identifier:Constant;3,3,96,1float
+	output nodes id:859, type:DepthwiseConv2dNative
+id:1334, name:Constant_1334, type:Constant, identifier:Constant;5,5,96,1float
+	output nodes id:865, type:DepthwiseConv2dNative
+id:1335, name:Constant_1335, type:Constant, identifier:Constant;5,5,96,1float
+	output nodes id:871, type:DepthwiseConv2dNative
+id:1336, name:Constant_1336, type:Constant, identifier:Constant;3,3,96,1float
+	output nodes id:878, type:DepthwiseConv2dNative
+id:1337, name:Constant_1337, type:Constant, identifier:Constant;3,3,96,1float
+	output nodes id:884, type:DepthwiseConv2dNative
+id:1338, name:Constant_1338, type:Constant, identifier:Constant;3,3,96,1float
+	output nodes id:892, type:DepthwiseConv2dNative
+id:1339, name:Constant_1339, type:Constant, identifier:Constant;3,3,96,1float
+	output nodes id:898, type:DepthwiseConv2dNative
+id:1340, name:Constant_1340, type:Constant, identifier:Constant;1,192,14,14float
+	output nodes id:913, type:Add
+	output nodes id:909, type:Add
+id:1341, name:Constant_1341, type:Constant, identifier:Constant;3,3,192,1float
+	output nodes id:917, type:DepthwiseConv2dNative
+id:1342, name:Constant_1342, type:Constant, identifier:Constant;3,3,192,1float
+	output nodes id:923, type:DepthwiseConv2dNative
+id:1343, name:Constant_1343, type:Constant, identifier:Constant;7,7,192,1float
+	output nodes id:931, type:DepthwiseConv2dNative
+id:1344, name:Constant_1344, type:Constant, identifier:Constant;7,7,192,1float
+	output nodes id:937, type:DepthwiseConv2dNative
+id:1345, name:Constant_1345, type:Constant, identifier:Constant;7,7,192,1float
+	output nodes id:944, type:DepthwiseConv2dNative
+id:1346, name:Constant_1346, type:Constant, identifier:Constant;7,7,192,1float
+	output nodes id:950, type:DepthwiseConv2dNative
+id:1347, name:Constant_1347, type:Constant, identifier:Constant;3,3,192,1float
+	output nodes id:966, type:DepthwiseConv2dNative
+id:1348, name:Constant_1348, type:Constant, identifier:Constant;3,3,192,1float
+	output nodes id:972, type:DepthwiseConv2dNative
+id:1349, name:Constant_1349, type:Constant, identifier:Constant;3,3,192,1float
+	output nodes id:1002, type:DepthwiseConv2dNative
+id:1350, name:Constant_1350, type:Constant, identifier:Constant;3,3,192,1float
+	output nodes id:1008, type:DepthwiseConv2dNative
+id:1351, name:Constant_1351, type:Constant, identifier:Constant;5,5,192,1float
+	output nodes id:1014, type:DepthwiseConv2dNative
+id:1352, name:Constant_1352, type:Constant, identifier:Constant;5,5,192,1float
+	output nodes id:1020, type:DepthwiseConv2dNative
+id:1353, name:Constant_1353, type:Constant, identifier:Constant;3,3,192,1float
+	output nodes id:1033, type:DepthwiseConv2dNative
+id:1354, name:Constant_1354, type:Constant, identifier:Constant;3,3,192,1float
+	output nodes id:1041, type:DepthwiseConv2dNative
+id:1355, name:Constant_1355, type:Constant, identifier:Constant;3,3,192,1float
+	output nodes id:1047, type:DepthwiseConv2dNative
+id:1356, name:Constant_1356, type:Constant, identifier:Constant;3,3,192,1float
+	output nodes id:1068, type:DepthwiseConv2dNative
+id:1357, name:Constant_1357, type:Constant, identifier:Constant;3,3,192,1float
+	output nodes id:1074, type:DepthwiseConv2dNative
+id:1358, name:Constant_1358, type:Constant, identifier:Constant;5,5,192,1float
+	output nodes id:1080, type:DepthwiseConv2dNative
+id:1359, name:Constant_1359, type:Constant, identifier:Constant;5,5,192,1float
+	output nodes id:1086, type:DepthwiseConv2dNative
+id:1360, name:Constant_1360, type:Constant, identifier:Constant;3,3,192,1float
+	output nodes id:1093, type:DepthwiseConv2dNative
+id:1361, name:Constant_1361, type:Constant, identifier:Constant;3,3,192,1float
+	output nodes id:1099, type:DepthwiseConv2dNative
+id:1362, name:Constant_1362, type:Constant, identifier:Constant;3,3,192,1float
+	output nodes id:1107, type:DepthwiseConv2dNative
+id:1363, name:Constant_1363, type:Constant, identifier:Constant;3,3,192,1float
+	output nodes id:1113, type:DepthwiseConv2dNative
+id:1364, name:Constant_1364, type:Constant, identifier:Constant;3,3,192,1float
+	output nodes id:1134, type:DepthwiseConv2dNative
+id:1365, name:Constant_1365, type:Constant, identifier:Constant;3,3,192,1float
+	output nodes id:1140, type:DepthwiseConv2dNative
+id:1366, name:Constant_1366, type:Constant, identifier:Constant;5,5,192,1float
+	output nodes id:1146, type:DepthwiseConv2dNative
+id:1367, name:Constant_1367, type:Constant, identifier:Constant;5,5,192,1float
+	output nodes id:1152, type:DepthwiseConv2dNative
+id:1368, name:Constant_1368, type:Constant, identifier:Constant;3,3,192,1float
+	output nodes id:1159, type:DepthwiseConv2dNative
+id:1369, name:Constant_1369, type:Constant, identifier:Constant;3,3,192,1float
+	output nodes id:1165, type:DepthwiseConv2dNative
+id:1370, name:Constant_1370, type:Constant, identifier:Constant;3,3,192,1float
+	output nodes id:1173, type:DepthwiseConv2dNative
+id:1371, name:Constant_1371, type:Constant, identifier:Constant;3,3,192,1float
+	output nodes id:1179, type:DepthwiseConv2dNative
+id:1372, name:Constant_1372, type:Constant, identifier:Constant;1,192,7,7float
+	output nodes id:1190, type:Add
+	output nodes id:1221, type:Add
+	output nodes id:1228, type:Add
+	output nodes id:1215, type:Add
+	output nodes id:1209, type:Add
+	output nodes id:1203, type:Add
+	output nodes id:1234, type:Add
+	output nodes id:1194, type:Add
+	output nodes id:1248, type:Add
+	output nodes id:1176, type:Add
+	output nodes id:1155, type:Add
+	output nodes id:1083, type:Add
+	output nodes id:1242, type:Add
+	output nodes id:1149, type:Add
+	output nodes id:1143, type:Add
+	output nodes id:1137, type:Add
+	output nodes id:1168, type:Add
+	output nodes id:1062, type:Add
+	output nodes id:1182, type:Add
+	output nodes id:1110, type:Add
+	output nodes id:1089, type:Add
+	output nodes id:1096, type:Add
+	output nodes id:1124, type:Add
+	output nodes id:1162, type:Add
+	output nodes id:969, type:Add
+	output nodes id:1030, type:Add
+	output nodes id:1017, type:Add
+	output nodes id:1071, type:Add
+	output nodes id:1011, type:Add
+	output nodes id:1102, type:Add
+	output nodes id:1005, type:Add
+	output nodes id:996, type:Add
+	output nodes id:1128, type:Add
+	output nodes id:947, type:Add
+	output nodes id:975, type:Add
+	output nodes id:1116, type:Add
+	output nodes id:1077, type:Add
+	output nodes id:1044, type:Add
+	output nodes id:1023, type:Add
+	output nodes id:953, type:Add
+	output nodes id:940, type:Add
+	output nodes id:934, type:Add
+	output nodes id:926, type:Add
+	output nodes id:920, type:Add
+	output nodes id:1050, type:Add
+	output nodes id:963, type:Add
+	output nodes id:1058, type:Add
+	output nodes id:1036, type:Add
+id:1373, name:Constant_1373, type:Constant, identifier:Constant;3,3,192,1float
+	output nodes id:1200, type:DepthwiseConv2dNative
+id:1374, name:Constant_1374, type:Constant, identifier:Constant;3,3,192,1float
+	output nodes id:1206, type:DepthwiseConv2dNative
+id:1375, name:Constant_1375, type:Constant, identifier:Constant;5,5,192,1float
+	output nodes id:1212, type:DepthwiseConv2dNative
+id:1376, name:Constant_1376, type:Constant, identifier:Constant;5,5,192,1float
+	output nodes id:1218, type:DepthwiseConv2dNative
+id:1377, name:Constant_1377, type:Constant, identifier:Constant;3,3,192,1float
+	output nodes id:1225, type:DepthwiseConv2dNative
+id:1378, name:Constant_1378, type:Constant, identifier:Constant;3,3,192,1float
+	output nodes id:1231, type:DepthwiseConv2dNative
+id:1379, name:Constant_1379, type:Constant, identifier:Constant;3,3,192,1float
+	output nodes id:1239, type:DepthwiseConv2dNative
+id:1380, name:Constant_1380, type:Constant, identifier:Constant;3,3,192,1float
+	output nodes id:1245, type:DepthwiseConv2dNative
+id:1381, name:Constant_1381, type:Constant, identifier:Constant;1,1000float
+	output nodes id:1260, type:Add
