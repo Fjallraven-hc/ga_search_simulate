@@ -72,19 +72,22 @@ class Simulator:
         for layer_idx in range(1, len(self.layer_schedule)):
             kernel_names = [self.gnodes[idx].type for idx in self.layer_schedule[layer_idx]]
             gids = [self.gnodes[idx].gid for idx in self.layer_schedule[layer_idx]]
-            info = [kernel_names[i] + '(' + str(gids[i]) + ')' for i in range(len(self.layer_schedule[layer_idx]))]
+            # info = [kernel_names[i] + '(' + str(gids[i]) + ')' for i in range(len(self.layer_schedule[layer_idx]))]
             # print(' '.join(info))
 
             kernel_latencys = [self.gnodes[idx].estimate_latency(self.op_info[idx]["sm_used"]) \
                                                             for idx in self.layer_schedule[layer_idx]]
             sm_usage = [self.op_info[idx]["sm_used"] for idx in self.layer_schedule[layer_idx]]
-            info = ['(' + str(kernel_latencys[i]) + ', ' + str(sm_usage[i]) + ')' for i in range(len(self.layer_schedule[layer_idx]))]
+            info = ['(' + str(self.layer_schedule[layer_idx][i]) + ', ' + str(kernel_latencys[i]) + ', ' + str(sm_usage[i]) + ')' for i in range(len(self.layer_schedule[layer_idx]))]
             print('- layer {}:'.format(layer_idx) + ',' + ' '.join(info))
 
 def get_e2e_latency(bias, gnodes, bfs, show_schedule = False):
     _, layer_schedule = update_schedule(bfs, bias, gnodes)
+    if show_schedule == True:
+        print(layer_schedule)
     pe_num = 80
     simulator = Simulator(layer_schedule, pe_num, gnodes)
+    # print(layer_schedule)
     for layer_idx in range(1, len(layer_schedule)):
         simulator.step_sm_allocate(layer_idx)
     if show_schedule == True:

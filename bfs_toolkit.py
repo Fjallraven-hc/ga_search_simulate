@@ -31,18 +31,18 @@ def get_bfs_level(gnodes):
     return bfs_result
 
 
-def update_schedule(schedule, bias, gnodes):
+def update_schedule(schedule, bias, gnodes, for_chain=False):
     ops_stage = [0 for i in range(len(gnodes))]
     tag_visited = [0 for i in range(len(gnodes))]
     
     while 0 in tag_visited:
         for idx in range(len(gnodes)):
             pre_ok = True
-            if schedule[idx] == 0:
+            if schedule[idx] == 0 and not for_chain:
                 ops_stage[idx] = 0
                 tag_visited[idx] = 1
                 continue
-            if len(gnodes[idx].src) == 0:
+            if len(gnodes[idx].src) == 0 and not for_chain:
                 ops_stage[idx] = 0
                 tag_visited[idx] = 1
                 continue
@@ -53,14 +53,18 @@ def update_schedule(schedule, bias, gnodes):
                     break
             
             if pre_ok:
-                max_pre_stage = ops_stage[gnodes[idx].src[0]]
-                for pre_id in gnodes[idx].src:
-                    if max_pre_stage < ops_stage[pre_id]:
-                        max_pre_stage = ops_stage[pre_id]
-                if (max_pre_stage + 1) > (schedule[idx] + bias[idx]):
-                    ops_stage[idx] = max_pre_stage + 1
-                else:
+                if gnodes[idx].src == []:
                     ops_stage[idx] = (schedule[idx] + bias[idx])
+                else:
+                    max_pre_stage = ops_stage[gnodes[idx].src[0]]
+                    for pre_id in gnodes[idx].src:
+                        if max_pre_stage < ops_stage[pre_id]:
+                            max_pre_stage = ops_stage[pre_id]
+                    # if (max_pre_stage + 1) > (schedule[idx] + bias[idx]):
+                    #     ops_stage[idx] = max_pre_stage + 1
+                    # else:
+                    #     ops_stage[idx] = (schedule[idx] + bias[idx])
+                    ops_stage[idx] = (max_pre_stage + bias[idx] + 1)
                 tag_visited[idx] = 1
     stage_schedule = [[] for i in range(max(ops_stage) + 1)]
     for idx in range(len(gnodes)):
@@ -71,4 +75,10 @@ def update_schedule(schedule, bias, gnodes):
 
     while [] in stage_schedule:
         stage_schedule.remove([])
+    # print(stage_schedule)
     return fixed_ops_stage, stage_schedule
+
+
+def get_gnode_schedule_chrom_from_chain_schedule(chain_schedule, bfs):
+    ops_stage = [0 for i in range(len(gnodes))]
+    tag_visited = [0 for i in range(len(gnodes))]

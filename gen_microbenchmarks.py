@@ -1,4 +1,4 @@
-length = 1
+length = 5
 def print_line(id, oid):
     print('id:{}, name:Testop_{}, type:Testop, identifier:Testop{}'.format(str(id), str(id), str(id)))
     print('\toutput nodes id:{}, type:Testop'.format(str(oid)))
